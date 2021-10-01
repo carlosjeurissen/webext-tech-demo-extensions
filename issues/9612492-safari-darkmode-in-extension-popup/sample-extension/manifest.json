@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "9612492-apple-darkmode-issue",
+  "version": "1.0",
+  "browser_action": {
+    "browser_style": false,
+    "default_popup": "popup.html"
+  },
+  "description": "9612454-apple-sandbox-issue",
+  "icons": {
+    "16": "/icon.png"
+  }
+}

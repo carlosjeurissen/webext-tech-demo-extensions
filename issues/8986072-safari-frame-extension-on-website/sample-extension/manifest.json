@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "8986072-apple-frame-issue",
+  "description": "8986072-apple-frame-issue",
+  "version": "1.0",
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["/content-script.js"]
+  }],
+  "web_accessible_resources": [
+    "/frame.html"
+  ],
+  "icons": {
+    "16": "/icon.png"
+  }
+}
