@@ -4,7 +4,7 @@
   "description": "chrome-csp-script-src-elem",
   "version": "0.0.1",
   "content_security_policy": {
-    "extension_pages": "default-src 'none'; script-src-elem https:"
+    "extension_pages": "default-src 'none'; script-src-elem 'self' https:"
   },
   "action": {
     "default_popup": "/popup.html"
