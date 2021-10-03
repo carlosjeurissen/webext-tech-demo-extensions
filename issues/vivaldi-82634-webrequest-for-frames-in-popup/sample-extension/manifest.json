@@ -1,7 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Vivaldi WebRequest Demo",
-  "version": "3.0",
+  "name": "vivaldi-82634-webrequest-for-frames-in-popup",
+  "description": "vivaldi-82634-webrequest-for-frames-in-popup",
+  "version": "4.0",
   "permissions": [
     "webRequest",
     "webRequestBlocking",
@@ -10,6 +11,9 @@
   "browser_action": {
     "browser_style": false,
     "default_popup": "/popup.html"
+  },
+  "icons": {
+    "16": "/icon.png"
   },
   "background": {
     "scripts": ["/webrequest.js"],
