@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "chromium-1246358-unknown-manifest-keys",
+  "description": "chromium-1246358-unknown-manifest-keys",
+  "version": "0.0.1",
+  "icons": {
+    "16": "/icon.png"
+  },
+  "container": "some_container",
+  "developer": "Carlos Jeurissen",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "black-menu-for-google@carlosjeurissen.com"
+    }
+  },
+  "applications": {
+    "gecko": {
+      "id": "black-menu-for-google@carlosjeurissen.com"
+    }
+  }
+}
