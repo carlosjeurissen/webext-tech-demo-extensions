@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Safari merged sync and local storage issue",
+  "description": "Safari merged sync and local storage issue",
+  "version": "1.0",
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "16": "/icon.png"
+  },
+  "background": {
+    "scripts": ["/background.js"],
+    "persistent": false
+  }
+}
