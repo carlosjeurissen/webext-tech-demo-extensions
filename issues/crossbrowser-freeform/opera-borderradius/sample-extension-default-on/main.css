@@ -1,0 +1,10 @@
+html,
+body {
+  border-radius: 0;
+  height: 300px;
+  width: 300px;
+}
+
+html.on {
+  background: whitesmoke;
+}

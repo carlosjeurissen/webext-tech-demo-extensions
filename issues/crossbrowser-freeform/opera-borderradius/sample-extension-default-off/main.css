@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+html,
+body {
+  border-radius: 0;
+  height: 300px;
+  width: 300px;
+}
+
+html.on {
+  background: whitesmoke;
+}
+
+div {
+  height: 100%;width: 100%; background: green;
+}

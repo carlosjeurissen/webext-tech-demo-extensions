@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "freeform-opera-borderradius-off",
+  "version": "1.0",
+  "browser_action": {
+    "browser_style": false,
+    "default_popup": "/main.html"
+  },
+  "description": "freeform-opera-borderradius-off",
+  "icons": {
+    "16": "/icon.png"
+  }
+}

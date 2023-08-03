@@ -1,0 +1,1 @@
+Webpages which determine their own size (extension option pages, extension dialogs, bottom drawer), are not handled the same across browsers. This is a collection of experiments showing how the same code ends up very differently in different browsers.
