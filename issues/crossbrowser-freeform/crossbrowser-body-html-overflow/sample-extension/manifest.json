@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "freeform-crossbrowser-body-html-same-size",
+  "name": "crossbrowser-body-html-overflow",
   "version": "1.0",
   "browser_action": {
     "browser_style": false,
@@ -9,7 +9,7 @@
   "options_ui": {
     "page": "/main.html"
   },
-  "description": "freeform-crossbrowser-body-html-same-size",
+  "description": "crossbrowser-body-html-overflow",
   "icons": {
     "16": "/icon.png",
     "48": "/icon.png"
