@@ -7,15 +7,15 @@
     "16": "/icon.png"
   },
   "container": "some_container",
-  "developer": "Carlos Jeurissen",
+  "developer": "Some Developer",
   "browser_specific_settings": {
     "gecko": {
-      "id": "black-menu-for-google@carlosjeurissen.com"
+      "id": "example-extension@example.com"
     }
   },
   "applications": {
     "gecko": {
-      "id": "black-menu-for-google@carlosjeurissen.com"
+      "id": "example-extension@example.com"
     }
   }
 }
