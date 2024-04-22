@@ -1,10 +1,11 @@
+WebKit bug report:
+https://bugs.webkit.org/show_bug.cgi?id=246620
+
 Apple Forum post:
 https://developer.apple.com/forums/thread/690249
 
 Apple Feedback assistant report:
 https://feedbackassistant.apple.com/feedback/9637664
-
-
 
 Try to send a message from an iframe running a contentscript to the extension page containing the iframe.
 
