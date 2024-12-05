@@ -2,10 +2,6 @@
 npm-debug.log
 node_modules
 
-# Mac and windows files
-.DS_Store
-.tmp
-
 # Distribution
 /dist_packed
 /dist
