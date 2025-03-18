@@ -1,7 +1,7 @@
 'use strict';
 
-chrome.browserAction.onClicked.addListener(function () {
+chrome.browserAction.onClicked.addListener(() => {
   chrome.tabs.create({
-    url: chrome.runtime.getURL('/main.html')
+    url: chrome.runtime.getURL('/main.html'),
   });
 });

@@ -1,5 +1,5 @@
 'use strict';
 
-chrome.runtime.onMessage.addListener(function (message) {
+chrome.runtime.onMessage.addListener((message) => {
   document.body.textContent = 'success';
 });

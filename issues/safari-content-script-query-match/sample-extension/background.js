@@ -1,10 +1,10 @@
 function openExampleWebsites () {
   browser.tabs.create({
-    url: 'https://example.com/?query=1'
+    url: 'https://example.com/?query=1',
   });
 
   browser.tabs.create({
-    url: 'https://example.com/query/'
+    url: 'https://example.com/query/',
   });
 }
 

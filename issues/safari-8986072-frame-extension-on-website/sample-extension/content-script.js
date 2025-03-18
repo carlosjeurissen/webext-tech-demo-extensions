@@ -1,13 +1,13 @@
 (function () {
-  'use strict'
+  'use strict';
 
   document.body.textContent = '';
 
-  let frameEl = document.createElement('iframe');
-  if (typeof browser !== 'undefined') {
-    frameEl.src = browser.runtime.getURL('/frame.html');
-  } else {
-    frameEl.src = chrome.runtime.getURL('/frame.html');
-  }
+  const frameUrl = typeof browser !== 'undefined'
+    ? browser.runtime.getURL('/frame.html')
+    : chrome.runtime.getURL('/frame.html');
+
+  const frameEl = document.createElement('iframe');
+  frameEl.src = frameUrl;
   document.body.appendChild(frameEl);
-})()
+}());

@@ -1,6 +1,6 @@
 function openExampleWebsite () {
   browser.tabs.create({
-    url: 'https://example.com/'
+    url: 'https://example.com/',
   });
 }
 
