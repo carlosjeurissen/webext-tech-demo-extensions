@@ -1,4 +1,4 @@
-const contexts = [null, 'all', 'page', 'action'];
+const contexts = [null, 'all', 'page', 'action', 'image'];
 
 function createMenu (props) {
   chrome.contextMenus.create(props);
