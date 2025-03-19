@@ -11,10 +11,8 @@
     "service_worker": "background.js"
   },
   "permissions": [
+    "activeTab",
     "contextMenus"
-  ],
-  "host_permissions": [
-    "<all_urls>"
   ],
   "action": {}
 }
