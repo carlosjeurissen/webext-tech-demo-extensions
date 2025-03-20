@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "firefox-1954637-empty-background-scripts",
+  "description": "firefox-1954637-empty-background-scripts",
+  "version": "0.0.1",
+  "icons": {
+    "16": "/icon.png"
+  },
+  "background": {
+    "scripts": [],
+    "service_worker": "service-worker.js",
+    "preferred_environment": ["document", "service_worker"]
+  }
+}
