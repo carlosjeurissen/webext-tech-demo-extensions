@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "name": "content-script-translate-attribute",
+  "description": "content-script-translate-attribute",
+  "icons": {
+    "16": "/icon.png"
+  },
+  "content_scripts": [{
+    "js": [ "content-script.js" ],
+    "matches": [ "<all_urls>" ],
+    "run_at": "document_start"
+  }]
+}
