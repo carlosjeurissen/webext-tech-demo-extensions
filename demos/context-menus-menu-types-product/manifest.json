@@ -10,9 +10,13 @@
     "scripts": ["background.js"],
     "service_worker": "background.js"
   },
+  "host_permissions": [
+    "<all_urls>"
+  ],
   "permissions": [
     "activeTab",
-    "contextMenus"
+    "contextMenus",
+    "menus"
   ],
   "action": {}
 }

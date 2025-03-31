@@ -1,9 +1,35 @@
-const contexts = [null, 'all', 'page', 'action', 'image'];
+const menusApi = chrome.menus || chrome.contextMenus;
+
+const contexts = [
+  null,
+  'action',
+  'all',
+  'audio',
+  'bookmark',
+  'browser_action',
+  'editable',
+  'frame',
+  'image',
+  'launcher',
+  'link',
+  'page',
+  'page_action',
+  'password',
+  'selection',
+  'tab',
+  'tools_menu',
+  'video',
+];
 
 function createMenu (props) {
-  chrome.contextMenus.create(props);
-  console.log('creating menu with: ');
-  console.log(props);
+  try {
+    menusApi.create(props);
+    console.log('creating menu with: ');
+    console.log(props);
+  } catch (e) {
+    console.log('Failed creating menu with: ');
+    console.log(props, e);
+  }
 }
 
 contexts.forEach((parentContext) => {

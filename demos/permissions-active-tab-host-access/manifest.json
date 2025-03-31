@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "permissions-active-tab",
+  "description": "permissions-active-tab",
+  "version": "0.0.1",
+  "icons": {
+    "16": "/icon.png"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_area": "navbar",
+    "default_popup": "/popup.html"
+  }
+}
