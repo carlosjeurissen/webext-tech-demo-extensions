@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "runtime-open-options-page-from-action-popup",
+  "description": "runtime-open-options-page-from-action-popup",
+  "version": "1.0",
+  "icons": {
+    "16": "/icon.png"
+  },
+  "options_page": "/options.html",
+  "action": {
+    "default_popup": "/popup.html"
+  }
+}
