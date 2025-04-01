@@ -1,7 +1,7 @@
 html,
 body {
-  height: 300px;
   width: 300px;
+  height: 300px;
 }
 
 body {
@@ -10,8 +10,8 @@ body {
 }
 
 div {
-  height: 100%;
   width: 100%;
+  height: 100%;
   background: lime;
-  opacity: .5;
+  opacity: 50%;
 }

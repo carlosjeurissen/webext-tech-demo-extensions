@@ -1,5 +1,5 @@
 'use strict';
 
-document.querySelector('button').addEventListener('click', function () {
+document.querySelector('button').addEventListener('click', () => {
   chrome.runtime.openOptionsPage();
 });
