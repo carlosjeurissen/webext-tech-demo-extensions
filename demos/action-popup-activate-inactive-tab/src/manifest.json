@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "tabs-activate-inactive-tab",
+  "description": "tabs-activate-inactive-tab",
+  "version": "1.0",
+  "icons": {
+    "16": "/icon.png"
+  },
+  "action": {
+    "default_popup": "/popup.html"
+  }
+}
