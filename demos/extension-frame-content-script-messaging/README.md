@@ -9,8 +9,8 @@ Issue: Not receiving any messages from same tab
 Issue: chrome.tabs is not available in extension frame See https://github.com/w3c/webextensions/issues/787
 
 ### Safari
-Framing does not work at all.
-Trying to put a view (html page) from a web extension into an iframe on a website. The html file is listed correctly in web_accessible_resources, however when you trying to load it, It will give the following error:
+Currently, extension html files put into an iframe on a website will fail to load. The html file is listed correctly in web_accessible_resources, however when you trying to load it, It will give the following error:
+
 Failed to load resource: The operation couldn’t be completed. (Cocoa error -1008.)
 
 WebKit bug report:
