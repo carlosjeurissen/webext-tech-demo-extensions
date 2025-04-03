@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "extension-frame-content-script-messaging",
+  "description": "extension-frame-content-script-messaging",
+  "version": "1.0",
+  "host_permissions": [
+    "https://*.example.com/*"
+  ],
+  "content_scripts": [{
+    "matches": ["https://*.example.com/*"],
+    "js": ["/content-script.js"],
+    "run_at": "document_idle"
+  }],
+  "web_accessible_resources": [
+    {
+      "resources": [ "/frame.html" ],
+      "matches": [ "https://*.example.com/*" ]
+    }
+  ],
+  "icons": {
+    "16": "/icon.png"
+  },
+  "background": {
+    "service_worker": "/background.js",
+    "scripts": ["/background.js"]
+  }
+}
