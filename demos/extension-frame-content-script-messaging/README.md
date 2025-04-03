@@ -3,6 +3,9 @@ Issue: Sending response from extension frame to content script gives undefined
 
 ### Firefox
 Issue: Sending response from extension frame to content script gives undefined
+
+Issue: Not receiving any messages from same tab
+
 Issue: chrome.tabs is not available in extension frame See https://github.com/w3c/webextensions/issues/787
 
 ### Safari
