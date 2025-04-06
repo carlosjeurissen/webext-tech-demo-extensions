@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "extension-frame-content-script-messaging",
-  "description": "extension-frame-content-script-messaging",
+  "name": "messaging-top-frame-cs-to-extension-sub-frame",
+  "description": "messaging-top-frame-cs-to-extension-sub-frame",
   "version": "1.0",
   "host_permissions": [
     "https://*.example.com/*"

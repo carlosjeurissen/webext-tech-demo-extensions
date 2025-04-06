@@ -1,3 +1,5 @@
+'use strict';
+
 function logMessage (text) {
   const paragraphEl = document.createElement('p');
   paragraphEl.textContent = text;
@@ -18,21 +20,10 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 });
 
 setTimeout(() => {
-  logMessage('Sending message: messageToFrameWithRuntime');
-  chrome.runtime.sendMessage('messageToFrameWithRuntime', (response) => {
-    logMessage(`Response for messageToFrameWithRuntime: ${response}`);
+  logMessage('Sending message: broadcastFromTopFrame');
+  chrome.runtime.sendMessage('broadcastFromTopFrame', (response) => {
+    logMessage(`Response for broadcastFromTopFrame: ${response}`);
   });
-
-  try {
-    chrome.tabs.getCurrent((currentTab) => {
-      logMessage('Sending message: messageToFrameWithTabs');
-      chrome.tabs.sendMessage(currentTab.id, 'messageToFrameWithTabs', (response) => {
-        logMessage(`Response for messageToFrameWithTabs: ${response}`);
-      });
-    });
-  } catch (e) {
-    logMessage(`chrome.tabs is unavailable: ${e}`);
-  }
 }, 1e3);
 
 document.querySelector('div').remove();
