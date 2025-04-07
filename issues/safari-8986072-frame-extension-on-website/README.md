@@ -6,7 +6,7 @@ or
 
 ### Links
 Demo extension:
-https://github.com/carlosjeurissen/webext-tech-demo-extensions/tree/main/demos/extension-frame-content-script-messaging
+https://github.com/carlosjeurissen/webext-tech-demo-extensions/tree/main/demos/messaging-top-frame-cs-to-extension-sub-frame
 
 WebKit bug report:
 https://bugs.webkit.org/show_bug.cgi?id=246617
