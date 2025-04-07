@@ -13,8 +13,11 @@ The popup will create an iframe for example.com. The extension loads a content s
 WebKit bug report:
 https://bugs.webkit.org/show_bug.cgi?id=246620
 
+Apple Feedback Assistant report:
+https://feedbackassistant.apple.com/feedback/9637664
+
 Apple Forum post:
 https://developer.apple.com/forums/thread/690249
 
-Apple Feedback assistant report:
-https://feedbackassistant.apple.com/feedback/9637664
+Apple radar:
+rdar://83280648
