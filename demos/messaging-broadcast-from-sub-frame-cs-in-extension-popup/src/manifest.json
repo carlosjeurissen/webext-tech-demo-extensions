@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "messaging-broadcast-from-sub-frame-cs-in-extension-popup",
+  "description": "messaging-broadcast-from-sub-frame-cs-in-extension-popup",
+  "version": "1.0",
+  "host_permissions": [
+    "https://www.example.com/test*"
+  ],
+  "content_scripts": [{
+    "all_frames": true,
+    "matches": ["https://www.example.com/test*"],
+    "js": ["/content-script.js"]
+  }],
+  "icons": {
+    "16": "/icon.png"
+  },
+  "background": {
+    "scripts": ["/background.js"],
+    "service_worker": "/background.js"
+  },
+  "action": {
+    "default_area": "navbar",
+    "default_popup": "/popup.html"
+  }
+}
