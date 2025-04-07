@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "DNR thirdParty domainType",
+    "name": "dnr-domaintype-thirdparty",
     "version": "1.0",
     "description": "Demo extension showcasing issues regarding thirdParty domainType in DNR.",
     "permissions": [ "declarativeNetRequest" ],
