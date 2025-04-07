@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "dnr-redirect-to-extension-path",
+  "description": "dnr-redirect-to-extension-path",
+  "version": "1.0",
+  "icons": {
+    "16": "/icon.png"
+  },
+  "background": {
+    "scripts": [ "/background.js" ],
+    "service_worker": "/background.js"
+  },
+  "permissions": [
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
