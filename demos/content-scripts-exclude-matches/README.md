@@ -6,7 +6,7 @@ https://bugs.webkit.org/show_bug.cgi?id=290858
 Apple Feedback Assistant report:
 https://feedbackassistant.apple.com/feedback/16590857
 
-Apple Forum post:
+Apple Developer Forums post:
 https://developer.apple.com/forums/thread/774973
 
 WebKit patch:

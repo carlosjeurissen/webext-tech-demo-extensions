@@ -15,7 +15,7 @@ https://bugs.webkit.org/show_bug.cgi?id=246620
 Apple Feedback Assistant report:
 https://feedbackassistant.apple.com/feedback/9637664
 
-Apple Forum post:
+Apple Developer Forums post:
 https://developer.apple.com/forums/thread/690249
 
 Apple radar:
