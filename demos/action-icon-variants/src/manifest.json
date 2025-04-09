@@ -13,7 +13,7 @@
   ],
   "icons": {
     "16": "/icons/red.png",
-    "48": "/icons/red.png"
+    "48": "/icons/red-48.png"
   },
   "icon_variants": [{
     "16": "/icons/green-stripe-dark.svg",
@@ -22,9 +22,11 @@
     "16": "/icons/green-stripe-light.svg"
   }, {
     "16": "/icons/yellow-stripe-dark.png",
+    "48": "/icons/yellow-stripe-dark-48.png",
     "color_scheme": ["dark"]
   }, {
-    "16": "/icons/yellow-stripe-light.png"
+    "16": "/icons/yellow-stripe-light.png",
+    "48": "/icons/yellow-stripe-light-48.png"
   }],
   "action": {
     "default_area": "navbar",
@@ -48,9 +50,11 @@
       "16": "/icons/green-checker-light.svg"
     }, {
       "16": "/icons/yellow-checker-dark.png",
+      "48": "/icons/yellow-checker-dark-48.png",
       "color_scheme": ["dark"]
     }, {
-      "16": "/icons/yellow-checker-light.png"
+      "16": "/icons/yellow-checker-light.png",
+      "48": "/icons/yellow-checker-light-48.png"
     }]
   }
 }
