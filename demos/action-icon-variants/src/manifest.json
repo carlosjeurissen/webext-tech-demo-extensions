@@ -1,0 +1,56 @@
+{
+  "manifest_version": 3,
+  "name": "action-icon-variants",
+  "description": "action-icon-variants",
+  "version": "1.0",
+  "background": {
+    "scripts": ["/background.js"],
+    "service_worker": "/background.js"
+  },
+  "permissions": [
+    "contextMenus",
+    "notifications"
+  ],
+  "icons": {
+    "16": "/icons/red.png",
+    "48": "/icons/red.png"
+  },
+  "icon_variants": [{
+    "16": "/icons/green-stripe-dark.svg",
+    "color_scheme": ["dark"]
+  }, {
+    "16": "/icons/green-stripe-light.svg"
+  }, {
+    "16": "/icons/yellow-stripe-dark.png",
+    "color_scheme": ["dark"]
+  }, {
+    "16": "/icons/yellow-stripe-light.png"
+  }],
+  "action": {
+    "default_area": "navbar",
+    "theme_icons": [{
+      "size": 16,
+      "dark": "/icons/blue-checker-light.svg",
+      "light": "/icons/blue-checker-dark.svg"
+    }, {
+      "size": 32,
+      "dark": "/icons/blue-checker-light.svg",
+      "light": "/icons/blue-checker-dark.svg"
+    }, {
+      "size": 48,
+      "dark": "/icons/blue-checker-light.svg",
+      "light": "/icons/blue-checker-dark.svg"
+    }],
+    "icon_variants": [{
+      "16": "/icons/green-checker-dark.svg",
+      "color_scheme": ["dark"]
+    }, {
+      "16": "/icons/green-checker-light.svg"
+    }, {
+      "16": "/icons/yellow-checker-dark.png",
+      "color_scheme": ["dark"]
+    }, {
+      "16": "/icons/yellow-checker-light.png"
+    }]
+  }
+}
