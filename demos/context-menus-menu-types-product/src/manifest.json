@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "chromium-402806174-contextmenu-subitems",
-  "description": "chromium-402806174-contextmenu-subitems",
+  "name": "context-menus-menu-types-product",
+  "description": "context-menus-menu-types-product",
   "version": "0.0.1",
   "icons": {
     "16": "/icon.png"
