@@ -7,7 +7,7 @@
     "16": "/icon.png"
   },
   "content_scripts": [{
-    "js": [ "content-script.js" ],
+    "js": [ "/content-script.js" ],
     "matches": [ "<all_urls>" ],
     "run_at": "document_start"
   }]
