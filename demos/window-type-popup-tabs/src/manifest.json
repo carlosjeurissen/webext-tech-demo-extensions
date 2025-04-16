@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "sidebar-per-tab-sidebar-with-action-url",
-  "description": "sidebar-per-tab-sidebar-with-action-url",
+  "name": "window-type-popup-tabs",
+  "description": "window-type-popup-tabs",
   "version": "1.0",
   "icons": {
     "16": "/icon.png"
@@ -12,10 +12,6 @@
   },
   "action": {
     "default_area": "navbar",
-    "default_title": "Click to open panel"
-  },
-  "permissions": [
-    "sidePanel",
-    "activeTab"
-  ]
+    "default_title": "Click to open the popup"
+  }
 }
