@@ -9,3 +9,6 @@ The tab opens in an existing window with type normal.
 ### Firefox
 
 A new tab in the popup window is opened.
+
+In vertical tabs mode, the tabbar is currently inaccessible. See:
+https://bugzilla.mozilla.org/show_bug.cgi?id=1960944
