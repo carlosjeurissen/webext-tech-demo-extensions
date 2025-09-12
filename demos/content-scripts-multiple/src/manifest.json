@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "content-scripts-multiple",
+  "description": "content-scripts-multiple",
+  "version": "1.0",
+  "icons": {
+    "16": "/icon.png"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": [
+      "/cs-a.js",
+      "/cs-b.js"
+    ]
+  }, {
+    "matches": ["https://*/*"],
+    "js": [
+      "/cs-b.js",
+      "/cs-a.js"
+    ]
+  }]
+}
