@@ -18,5 +18,30 @@
       "/cs-b.js",
       "/cs-a.js"
     ]
+  }, {
+    "matches": ["<all_urls>"],
+    "js": [
+      "/cs-c.js"
+    ]
+  }, {
+    "matches": ["https://*/*"],
+    "js": [
+      "/cs-d.js"
+    ]
+  }, {
+    "matches": ["https://example.com/*"],
+    "js": [
+      "/cs-e.js"
+    ]
+  }, {
+    "matches": ["<all_urls>"],
+    "js": [
+      "/cs-f.js"
+    ]
+  }, {
+    "matches": ["https://*/*"],
+    "js": [
+      "/cs-g.js"
+    ]
   }]
 }
