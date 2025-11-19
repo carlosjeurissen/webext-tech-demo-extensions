@@ -1,0 +1,43 @@
+{
+  "name": "scripting-css-origin",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "/icon.png"
+  },
+  "permissions": [
+    "scripting",
+    "tabs",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "match_about_blank": true,
+      "matches": [
+        "<all_urls>"
+      ],
+      "css_origin": "user",
+      "css": [
+        "manifest-user.css"
+      ]
+    },
+    {
+      "match_about_blank": true,
+      "matches": [
+        "<all_urls>"
+      ],
+      "css_origin": "author",
+      "css": [
+        "manifest-author.css"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {}
+}

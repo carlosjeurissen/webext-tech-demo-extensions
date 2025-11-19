@@ -2,7 +2,7 @@
 top frame is extension page opened as action popup
 sub frame is third party website with extension content script
 
-Broadcasting a message from the extension content script fails. While it is successful in Chrome and Firefox.
+Broadcasting a message from the extension content script fails in Safari and Orion. While it is successful in Chrome and Firefox.
 
 ### Demo
 Open the action popup and grant host permissions if needed.

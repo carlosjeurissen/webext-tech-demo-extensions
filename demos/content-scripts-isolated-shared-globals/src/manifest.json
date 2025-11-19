@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "content-scripts-isolated-shared-globals",
+  "description": "content-scripts-isolated-shared-globals",
+  "version": "1.0",
+  "icons": {
+    "16": "/icon.png"
+  },
+  "permissions": [
+    "scripting"
+  ],
+  "background": {
+    "scripts": ["/background.js"],
+    "service_worker": "/background.js"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "run_at": "document_start",
+    "js": [
+      "cs-manifest-1a.js",
+      "cs-manifest-1b.js"
+    ]
+  }, {
+    "matches": ["https://*/*"],
+    "run_at": "document_idle",
+    "match_origin_as_fallback": true,
+    "all_frames": true,
+    "js": [
+      "cs-manifest-2a.js",
+      "cs-manifest-2b.js"
+    ]
+  }]
+}

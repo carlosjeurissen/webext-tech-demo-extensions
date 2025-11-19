@@ -19,29 +19,39 @@
       "/cs-a.js"
     ]
   }, {
-    "matches": ["<all_urls>"],
+    "matches": ["https://example.com/*"],
+    "run_at": "document_idle",
+    "all_frames": true,
     "js": [
       "/cs-c.js"
     ]
   }, {
-    "matches": ["https://*/*"],
+    "matches": ["<all_urls>"],
     "js": [
       "/cs-d.js"
     ]
   }, {
-    "matches": ["https://example.com/*"],
+    "matches": ["https://*/*"],
+    "run_at": "document_idle",
     "js": [
       "/cs-e.js"
     ]
   }, {
-    "matches": ["<all_urls>"],
+    "matches": ["https://example.com/*"],
     "js": [
       "/cs-f.js"
     ]
   }, {
-    "matches": ["https://*/*"],
+    "matches": ["<all_urls>"],
+    "all_frames": true,
     "js": [
       "/cs-g.js"
+    ]
+  }, {
+    "matches": ["https://*/*"],
+    "run_at": "document_start",
+    "js": [
+      "/cs-start.js"
     ]
   }]
 }
