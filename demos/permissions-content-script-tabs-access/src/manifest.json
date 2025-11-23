@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "permissions-content-script-tabs-access",
+  "description": "permissions-content-script-tabs-access",
+  "version": "0.0.1",
+  "icons": {
+    "16": "/icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar",
+    "default_popup": "/popup.html"
+  },
+  "content_scripts": [{
+    "matches": [ "https://www.example.com/*" ],
+    "js": [ "content-script.js" ]
+  }]
+}
