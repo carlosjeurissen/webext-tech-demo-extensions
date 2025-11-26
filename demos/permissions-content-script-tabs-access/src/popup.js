@@ -7,7 +7,7 @@ function logToBody (message) {
 chrome.tabs.query({
   active: true,
   currentWindow: true,
-}, function (result) {
+}, (result) => {
   logToBody('tabs.query.url:' + result[0].url);
 });
 

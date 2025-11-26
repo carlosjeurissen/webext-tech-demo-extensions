@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "icon-svg",
+  "description": "icon-svg",
+  "version": "1.0",
+  "background": {
+    "scripts": ["/background.js"],
+    "service_worker": "/background.js"
+  },
+  "permissions": [
+    "contextMenus",
+    "notifications",
+    "sidePanel"
+  ],
+  "icons": {
+    "16": "/icon.svg"
+  },
+  "icon_variants": [{
+    "16": "/icon.svg"
+  }],
+  "action": {
+    "default_area": "navbar",
+    "theme_icons": [{
+      "size": 16,
+      "dark": "/icon.svg",
+      "light": "/icon.svg"
+    }],
+    "icon_variants": [{
+      "16": "/icon.svg"
+    }],
+    "default_icon": "/icon.svg"
+  },
+  "side_panel": {
+    "default_path": "/sidebar.html",
+    "default_icon": "/icon.svg"
+  }
+}

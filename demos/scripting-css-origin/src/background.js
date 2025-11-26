@@ -6,7 +6,7 @@ chrome.webNavigation.onCompleted.addListener((tab) => {
       target: { tabId },
       origin: 'AUTHOR',
       files: ['/insertcss-author.css'],
-    }, function () {
+    }, () => {
       chrome.scripting.insertCSS({
         target: { tabId },
         origin: 'USER',
