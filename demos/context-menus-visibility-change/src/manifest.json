@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "context-menus-visibility-change",
+  "description": "context-menus-visibility-change",
+  "version": "0.0.1",
+  "icons": {
+    "16": "/icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "menus"
+  ],
+  "action": {}
+}

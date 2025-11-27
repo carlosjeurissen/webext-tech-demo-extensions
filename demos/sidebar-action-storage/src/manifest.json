@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "sidebar-action-storage",
+  "description": "sidebar-action-storage",
+  "version": "0.0.1",
+  "icons": {
+    "16": "/icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "sidebar_action": {
+    "default_panel": "/sidebar.html"
+  },
+  "action": {}
+}
