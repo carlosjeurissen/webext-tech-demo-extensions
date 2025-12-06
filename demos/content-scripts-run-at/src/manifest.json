@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "content-scripts-run-at",
+  "description": "content-scripts-run-at",
+  "version": "1.0",
+  "icons": {
+    "16": "/icon.png"
+  },
+  "content_scripts": [{
+    "matches": [ "<all_urls>" ],
+    "js": [ "/document-start.js" ],
+    "run_at": "document_start"
+  }, {
+    "matches": [ "<all_urls>" ],
+    "js": [ "/document-idle.js" ],
+    "run_at": "document_idle"
+  }, {
+    "matches": [ "<all_urls>" ],
+    "js": [ "/document-end.js" ],
+    "run_at": "document_end"
+  }]
+}

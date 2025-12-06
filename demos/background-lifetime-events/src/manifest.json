@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "background-lifetime-events",
+  "description": "background-lifetime-events",
+  "version": "1.0",
+  "icons": {
+    "16": "/icon.png",
+    "48": "/icon.png"
+  },
+  "background": {
+    "scripts": ["/background.js"],
+    "service_worker": "/background.js"
+  }
+}
