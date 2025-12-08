@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "url-overrides-newtab",
+  "description": "url-overrides-newtab",
+  "version": "1.0",
+  "icons": {
+    "16": "/icon.png",
+    "32": "/icon.png",
+    "48": "/icon.png"
+  },
+  "background": {
+    "scripts": ["/background.js"],
+    "service_worker": "/background.js"
+  },
+  "chrome_url_overrides": {
+    "newtab": "/newtab.html?env=newtab"
+  },
+  "options_ui": {
+    "page": "/newtab.html?env=options",
+    "browser_style": false,
+    "open_in_tab": true
+  },
+  "options_page": "/newtab.html?env=options"
+}
