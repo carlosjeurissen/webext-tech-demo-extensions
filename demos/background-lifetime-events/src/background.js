@@ -1,6 +1,6 @@
 'use strict';
 
-function addListener(methodName) {
+function addListener (methodName) {
   if (chrome.runtime[methodName]) {
     chrome.runtime[methodName].addListener((details) => {
       console.log(methodName + ' fired', details);

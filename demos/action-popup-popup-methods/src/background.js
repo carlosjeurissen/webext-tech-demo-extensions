@@ -1,0 +1,8 @@
+'use strict';
+
+chrome.tabs.create({
+  url: chrome.runtime.getURL('/options.html'),
+});
+
+chrome.runtime.onInstalled.addListener(() => {});
+chrome.runtime.onStartup.addListener(() => {});
