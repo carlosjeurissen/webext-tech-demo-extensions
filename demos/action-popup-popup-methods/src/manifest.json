@@ -14,5 +14,11 @@
   "action": {
     "default_popup": "/popup.html",
     "default_area": "navbar"
-  }
+  },
+  "options_ui": {
+    "page": "/views/options.html",
+    "browser_style": false,
+    "open_in_tab": true
+  },
+  "options_page": "/views/options.html"
 }
