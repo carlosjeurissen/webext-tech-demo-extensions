@@ -23,3 +23,7 @@ document.getElementById('ref-sidepanel-toggle').addEventListener('click', () => 
     });
   });
 });
+
+chrome.sidePanel.getLayout((panelLayout) => {
+  document.getElementById('ref-layout').textContent = JSON.stringify(panelLayout, null, 2);
+});
