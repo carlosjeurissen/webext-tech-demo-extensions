@@ -15,3 +15,11 @@ Forum post:
 https://forum.vivaldi.net/topic/114343/calls-to-chrome.sidepanel.close-have-no-effect
 
 Feedback key: VB-123446
+
+chrome.sidePanel.getLayout:
+Vivaldi always returns "right" for side in the getLayout method
+
+Forum post:
+https://forum.vivaldi.net/topic/114346/sidepanel.getlayout-incorrectly-always-returns-side-right
+
+Feedback key: VB-123454
