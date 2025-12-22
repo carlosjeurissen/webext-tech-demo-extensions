@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "sidebar-disabled",
+  "description": "sidebar-disabled",
+  "version": "1.0",
+  "icons": {
+    "16": "/icon.png",
+    "48": "/icon.png"
+  },
+  "permissions": ["sidePanel"],
+  "background": {
+    "scripts": ["/background.js"],
+    "service_worker": "/background.js"
+  }
+}
