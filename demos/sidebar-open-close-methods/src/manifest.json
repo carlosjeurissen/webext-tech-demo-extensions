@@ -1,18 +1,19 @@
 {
   "manifest_version": 3,
-  "name": "action-popup-popup-methods",
-  "description": "action-popup-popup-methods",
+  "name": "sidebar-open-close-methods",
+  "description": "sidebar-open-close-methods",
   "version": "1.0",
   "icons": {
     "16": "/icon.png",
     "48": "/icon.png"
   },
+  "permissions": ["sidePanel"],
   "background": {
     "scripts": ["/background.js"],
     "service_worker": "/background.js"
   },
   "action": {
-    "default_popup": "/popup.html",
+    "default_popup": "/options.html",
     "default_area": "navbar"
   },
   "options_ui": {
