@@ -18,7 +18,8 @@
     }
   ],
   "icons": {
-    "16": "/icon.png"
+    "16": "/icon.png",
+    "48": "/icon.png"
   },
   "background": {
     "service_worker": "/background.js",

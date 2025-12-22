@@ -4,7 +4,8 @@
   "description": "tabs-activate-inactive-tab",
   "version": "1.0",
   "icons": {
-    "16": "/icon.png"
+    "16": "/icon.png",
+    "48": "/icon.png"
   },
   "action": {
     "default_popup": "/popup.html"

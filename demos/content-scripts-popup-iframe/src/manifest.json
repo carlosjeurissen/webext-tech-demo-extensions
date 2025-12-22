@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "content-scripts-popup-iframe",
+  "description": "content-scripts-popup-iframe",
+  "version": "1.0",
+  "icons": {
+    "16": "/icon.png",
+    "48": "/icon.png"
+  },
+  "host_permissions": [
+    "https://*.example.com/*"
+  ],
+  "action": {
+    "default_popup": "/popup.html"
+  },
+  "background": {
+    "service_worker": "/background.js",
+    "scripts": ["/background.js"]
+  },
+  "content_scripts": [{
+    "js": ["/content-script.js"],
+    "matches": ["https://*.example.com/*"],
+    "all_frames": true
+  }]
+}

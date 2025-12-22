@@ -4,7 +4,8 @@
   "description": "context-menus-menu-types-product",
   "version": "0.0.1",
   "icons": {
-    "16": "/icon.png"
+    "16": "/icon.png",
+    "48": "/icon.png"
   },
   "background": {
     "scripts": ["background.js"],
