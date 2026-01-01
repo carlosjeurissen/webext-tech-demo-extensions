@@ -1,5 +1,5 @@
 Demo extension:
-https://github.com/carlosjeurissen/webext-tech-demo-extensions/tree/main/demos/dnr-domaintype-thirdparty/src
+https://jeurissen.co/webext-demos/dnr-domaintype-thirdparty
 
 WECG issue:
 https://github.com/w3c/webextensions/issues/731

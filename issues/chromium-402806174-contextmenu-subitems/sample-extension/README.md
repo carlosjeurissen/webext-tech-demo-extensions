@@ -1,1 +1,2 @@
-Moved to https://github.com/carlosjeurissen/webext-tech-demo-extensions/tree/main/demos/context-menus-menu-types-product
+Moved to:
+https://jeurissen.co/webext-demos/context-menus-menu-types-product

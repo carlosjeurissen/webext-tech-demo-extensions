@@ -5,4 +5,4 @@ WECG issue:
 https://github.com/w3c/webextensions/issues/774
 
 Demo extension:
-https://github.com/carlosjeurissen/webext-tech-demo-extensions/tree/main/demos/context-menus-menu-types-product
+https://jeurissen.co/webext-demos/context-menus-menu-types-product

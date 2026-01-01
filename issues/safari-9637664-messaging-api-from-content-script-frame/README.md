@@ -6,7 +6,7 @@ sub frame is third party website with extension content script
 Broadcasting a message from the extension content script is not picked up by the extension top frame in Safari. While it is in Chrome and Firefox.
 
 ### Demo extension
-https://github.com/carlosjeurissen/webext-tech-demo-extensions/tree/main/demos/messaging-sub-frame-cs-to-extension-top-frame
+https://jeurissen.co/webext-demos/messaging-sub-frame-cs-to-extension-top-frame
 
 ### Links
 WebKit bug report:

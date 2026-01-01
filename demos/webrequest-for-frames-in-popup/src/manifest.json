@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "webrequest-for-frames-in-popup",
+  "description": "webrequest-for-frames-in-popup",
+  "version": "5.0",
+  "permissions": [
+    "webRequest"
+  ],
+  "host_permissions": [
+    "https://*.example.org/*",
+    "https://*.example.com/*",
+    "https://example.org/*",
+    "https://example.com/*"
+  ],
+  "action": {
+    "browser_style": false,
+    "default_popup": "/popup.html"
+  },
+  "icons": {
+    "16": "/icon.png",
+    "48": "/icon.png"
+  },
+  "background": {
+    "scripts": ["/background.js"],
+    "service_worker": "/background.js"
+  }
+}
