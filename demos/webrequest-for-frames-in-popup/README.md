@@ -16,8 +16,11 @@ https://forum.vivaldi.net/topic/42870/vivaldi-extension-browser-detect/14
 
 #### Safari
 Just like Vivaldi, the listener is never fired inside action popups.
+See: https://bugs.webkit.org/show_bug.cgi?id=304827
 
 When opened in a new tab, the listener does fire, but it fires with the wrong resource type (main_frame instead of sub_frame).
+See: https://bugs.webkit.org/show_bug.cgi?id=304828
 
 #### Orion
-The webRequest API is not supported at all currently (2025)
+Orion currently never fires the listener not even in a new tab.
+See: https://orionfeedback.org/d/12846-webrequestonbeforerequest-not-fired-for-subframes-in-extension-pages
