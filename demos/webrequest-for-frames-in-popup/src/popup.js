@@ -1,23 +1,48 @@
 'use strict';
 
 const startUrl = 'https://example.org/';
-const endUrl = 'https://example.com/';
 
-const iframeEl = document.createElement('iframe');
+const iframeEl = document.getElementById('ref-iframe');
+const resultsEl = document.getElementById('ref-results');
+const openInNewEl = document.getElementById('ref-open-in-new');
 
-chrome.webRequest.onBeforeRequest.addListener((details) => {
-  iframeEl.src = endUrl;
-  document.getElementById('ref-result-type').textContent = details.type;
-}, {
-  urls: [startUrl + '*'],
+const filter = {
+  urls: [
+    startUrl + '*',
+  ],
+};
+
+const webRequestListeners = [
+  'onBeforeRequest',
+  'onHeadersReceived',
+  'onAuthRequired',
+  'onBeforeRedirect',
+  'onBeforeSendHeaders',
+  'onCompleted',
+  'onErrorOccurred',
+  'onResponseStarted',
+  'onSendHeaders',
+];
+
+let currentResults = '';
+
+function appendResults (title, result) {
+  currentResults += title + ' - ' + JSON.stringify(result, null, 2) + '\n\n\n';
+  resultsEl.value = currentResults;
+}
+
+webRequestListeners.forEach((eventName) => {
+  chrome.webRequest[eventName].addListener((details) => {
+    appendResults(eventName, details);
+  }, filter);
 });
 
 setTimeout(() => {
-  iframeEl.src = startUrl;
-  document.body.appendChild(iframeEl);
+  const randomId = Math.random().toString().replace('0.', Date.now());
+  iframeEl.src = startUrl + randomId;
 }, 500);
 
-document.getElementById('ref-open-in-new').addEventListener('click', () => {
+openInNewEl.addEventListener('click', () => {
   chrome.tabs.create({
     url: chrome.runtime.getURL('/popup.html'),
   });

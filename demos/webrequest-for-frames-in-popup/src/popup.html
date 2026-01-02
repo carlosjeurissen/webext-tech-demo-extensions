@@ -4,11 +4,14 @@
 <head>
   <meta charset="utf-8">
   <title>webrequest-for-frames-in-popup</title>
+  <link rel="stylesheet" href="/popup.css">
 </head>
 
 <body>
   <button id="ref-open-in-new">Open popup in new tab</button>
-  <div>Resource type: <code id="ref-result-type">loading...</code></div>
+  <iframe id="ref-iframe"></iframe>
+  <h4>Results</h4>
+  <textarea readonly id="ref-results">Loading...</textarea>
   <script src="/popup.js"></script>
 </body>
 

@@ -1,12 +1,12 @@
 ### Webrequest-for-frames-in-popup
 
-The extension action popup registers a webRequest.onBeforeRequest listener, and loads an iframe in the popup. If the listener is fired, it will replace the source of the iframe from the original https://example.org/ to https://example.com/ and loads the registered resource type in the result box.
+The extension action popup register the different webRequest listeners, and load example.org/randomised into the iframe in the popup. If the listeners are fired, they load the result in the result box. If the listeners are not firing, the results box will say "loading...".
 
 #### Firefox & Chrome
 Everything works fine
 
 #### Vivaldi
-In Vivaldi, the webRequest listener is never fired for action popups. They do however properly fire the listener when the popup is opened in a new tab.
+In Vivaldi, the webRequest listener is never fired for action popups. The result box stays on "loading..." They do however properly fire the listener when the popup is opened in a new tab.
 
 Bugreport issuekey: VB-123605 and VB-82634
 
