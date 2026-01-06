@@ -1,3 +1,8 @@
+# Content script translate attribute
+
+## Issues
+
+### Angular apps
 Some angular applications using ngx-translate can break when changing the translate attribute:
 See https://github.com/ngx-translate/core/issues/1492#issuecomment-2741663060
 

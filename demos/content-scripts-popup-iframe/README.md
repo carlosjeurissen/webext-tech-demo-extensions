@@ -1,4 +1,8 @@
-## content-scripts-popup-iframe
+# content-scripts-popup-iframe
+
+## Issues
+
+### Vivaldi
 Vivaldi does not run content scripts in extension popup subframes
 
 Forum post:

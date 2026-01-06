@@ -1,3 +1,8 @@
+# Content scripts exclude matches
+
+## Issues
+
+### Safari
 Safari ignores excludeMatches on registerContentScripts
 
 WebKit bug report:

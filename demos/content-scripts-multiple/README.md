@@ -1,6 +1,6 @@
-Multiple content scripts
+# Multiple content scripts
 
-Inconsistency:
+## Issues
 The order is non deterministic
 Chrome de-duplicates scripts, Firefox and Safari do not
 
