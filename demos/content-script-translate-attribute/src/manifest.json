@@ -4,8 +4,8 @@
   "name": "content-script-translate-attribute",
   "description": "content-script-translate-attribute",
   "icons": {
-    "16": "/icon.png",
-    "48": "/icon.png"
+    "16": "icon.png",
+    "48": "icon.png"
   },
   "content_scripts": [{
     "js": [ "/content-script.js" ],

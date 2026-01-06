@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "default_locale": "en",
+
+  "name": "i18n-placeholders",
+  "description": "i18n-placeholders",
+  "version": "1.0",
+
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+
+  "background": {
+    "service_worker": "/background.js",
+    "scripts": ["/background.js"]
+  },
+
+  "action": {
+    "default_popup": "/main.html"
+  },
+
+  "options_ui": {
+    "page": "/main.html",
+    "browser_style": false,
+    "open_in_tab": true
+  }
+}

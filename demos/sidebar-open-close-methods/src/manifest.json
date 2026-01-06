@@ -4,8 +4,8 @@
   "description": "sidebar-open-close-methods",
   "version": "1.0",
   "icons": {
-    "16": "/icon.png",
-    "48": "/icon.png"
+    "16": "icon.png",
+    "48": "icon.png"
   },
   "permissions": ["sidePanel"],
   "background": {

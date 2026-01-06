@@ -4,8 +4,8 @@
   "description": "messaging-extension-cross-frame-messaging-with-responses",
   "version": "1.0",
   "icons": {
-    "16": "/icon.png",
-    "48": "/icon.png"
+    "16": "icon.png",
+    "48": "icon.png"
   },
   "background": {
     "scripts": ["/background.js"],

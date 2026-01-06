@@ -4,8 +4,8 @@
   "description": "Safari content script query match issue",
   "version": "1.0",
   "icons": {
-    "16": "/icon.png",
-    "48": "/icon.png"
+    "16": "icon.png",
+    "48": "icon.png"
   },
   "content_scripts": [{
     "css": [ "/content-script.css" ],

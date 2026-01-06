@@ -9,8 +9,8 @@
     "activeTab"
   ],
   "icons": {
-    "16": "/icon.png",
-    "48": "/icon.png"
+    "16": "icon.png",
+    "48": "icon.png"
   },
   "background": {
     "scripts": ["/background.js"],
