@@ -1,3 +1,5 @@
+'use strict';
+
 const activeTabQuery = await chrome.tabs.query({
   active: true,
   currentWindow: true,

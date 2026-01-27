@@ -1,3 +1,5 @@
+'use strict';
+
 const csRegister1aGlobal = true;
 window.csRegister1a = true;
 

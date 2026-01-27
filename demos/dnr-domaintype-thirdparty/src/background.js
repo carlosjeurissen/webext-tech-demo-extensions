@@ -1,3 +1,5 @@
+'use strict';
+
 // Listen for the extension being installed or updated
 chrome.runtime.onInstalled.addListener(() => {
   chrome.declarativeNetRequest.updateDynamicRules({

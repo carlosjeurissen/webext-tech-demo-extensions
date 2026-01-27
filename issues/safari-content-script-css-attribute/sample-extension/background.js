@@ -1,7 +1,11 @@
-function openExampleWebsite () {
-  browser.tabs.create({
+'use strict';
+
+function openDemo () {
+  chrome.tabs.create({
     url: 'https://example.com/',
   });
 }
 
-browser.runtime.onInstalled.addListener(openExampleWebsite);
+chrome.runtime.onInstalled.addListener(openDemo);
+chrome.runtime.onStartup.addListener(openDemo);
+chrome.action.onClicked.addListener(openDemo);

@@ -1,3 +1,5 @@
+'use strict';
+
 chrome.webNavigation.onCompleted.addListener((tab) => {
   const { tabId } = tab;
 

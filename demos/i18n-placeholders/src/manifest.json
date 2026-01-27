@@ -17,12 +17,13 @@
   },
 
   "action": {
-    "default_popup": "/main.html"
+    "default_area": "navbar"
   },
 
   "options_ui": {
     "page": "/main.html",
     "browser_style": false,
     "open_in_tab": true
-  }
+  },
+  "options_page": "/main.html"
 }

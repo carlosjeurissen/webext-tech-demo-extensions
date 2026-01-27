@@ -1,3 +1,5 @@
+'use strict';
+
 chrome.scripting.registerContentScripts([{
   id: '1',
   matches: ['<all_urls>'],

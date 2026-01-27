@@ -1,3 +1,5 @@
+'use strict';
+
 const csManifest2aGlobal = true;
 window.csManifest2a = true;
 

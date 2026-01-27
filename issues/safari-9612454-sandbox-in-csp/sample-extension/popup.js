@@ -1,5 +1,3 @@
-(function () {
-  'use strict';
+'use strict';
 
-  document.body.textContent = 'loaded';
-}());
+document.body.textContent = 'loaded';

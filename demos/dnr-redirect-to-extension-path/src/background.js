@@ -1,3 +1,5 @@
+'use strict';
+
 console.log('Adding dynamic rules...');
 
 chrome.declarativeNetRequest.updateDynamicRules({

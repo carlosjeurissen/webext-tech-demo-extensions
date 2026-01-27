@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const logEl = document.getElementById('ref-log');
 logEl.value = '';
@@ -7,7 +7,7 @@ const createEl = document.getElementById('ref-create');
 
 function writeToLog (parts) {
   const text = parts.join('\n') + '\n\n';
-  logEl.value = logEl.value + text;
+  logEl.value += text;
 }
 
 const events = [
@@ -17,9 +17,9 @@ const events = [
   'onClosed',
 ];
 
-events.forEach(function (eventName) {
+events.forEach((eventName) => {
   try {
-    chrome.notifications[eventName].addListener(function (notificationId, secondary) {
+    chrome.notifications[eventName].addListener((notificationId, secondary) => {
       writeToLog([
         eventName,
         notificationId,
@@ -34,7 +34,7 @@ events.forEach(function (eventName) {
   }
 });
 
-createEl.addEventListener('click', function () {
+createEl.addEventListener('click', () => {
   chrome.notifications.create({
     type: 'basic',
     iconUrl: '/icon.png',

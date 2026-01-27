@@ -1,7 +1,5 @@
-(function () {
-  'use strict';
+'use strict';
 
-  document.head.textContent = '';
-  document.body.textContent = '';
-  document.body.style.cssText = 'background: red !important';
-}());
+document.head.textContent = '';
+document.body.textContent = '';
+document.body.style.cssText = 'background: red !important';

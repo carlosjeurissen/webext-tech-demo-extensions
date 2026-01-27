@@ -1,13 +1,16 @@
-function openMain () {
-  if (chrome.runtime.openOptionsPage) {
+'use strict';
+
+function openDemo () {
+  try {
     chrome.runtime.openOptionsPage();
-  } else {
+  } catch (e) {
+    console.error(e);
     chrome.tabs.create({
       url: chrome.runtime.getURL('/main.html'),
     });
   }
 }
 
-chrome.runtime.onStartup.addListener(openMain);
-chrome.runtime.onInstalled.addListener(openMain);
-chrome.action.onClicked.addListener(openMain);
+chrome.runtime.onInstalled.addListener(openDemo);
+chrome.runtime.onStartup.addListener(openDemo);
+chrome.action.onClicked.addListener(openDemo);

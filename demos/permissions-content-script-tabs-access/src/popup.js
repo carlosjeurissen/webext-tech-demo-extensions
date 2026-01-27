@@ -1,3 +1,5 @@
+'use strict';
+
 function logToBody (message) {
   const paragraphEl = document.createElement('p');
   paragraphEl.textContent = message;

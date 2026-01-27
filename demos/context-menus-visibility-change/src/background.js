@@ -1,3 +1,5 @@
+'use strict';
+
 const menusApi = chrome.menus || chrome.contextMenus;
 
 menusApi.create({

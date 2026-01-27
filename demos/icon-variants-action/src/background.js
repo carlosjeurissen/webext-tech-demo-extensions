@@ -20,5 +20,5 @@ function loadContextMenu () {
   });
 }
 
-chrome.runtime.onStartup.addListener(loadContextMenu);
 chrome.runtime.onInstalled.addListener(loadContextMenu);
+chrome.runtime.onStartup.addListener(loadContextMenu);

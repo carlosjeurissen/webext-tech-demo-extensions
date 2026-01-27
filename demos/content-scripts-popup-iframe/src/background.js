@@ -1,5 +1,8 @@
 'use strict';
 
-chrome.action.openPopup();
-chrome.runtime.onInstalled.addListener(() => {});
-chrome.runtime.onStartup.addListener(() => {});
+function openDemo () {
+  chrome.action.openPopup();
+}
+
+chrome.runtime.onInstalled.addListener(openDemo);
+chrome.runtime.onStartup.addListener(openDemo);
