@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "notifications",
+  "description": "notifications",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "permissions": [
+    "notifications"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar"
+  },
+  "options_page": "/main.html",
+  "options_ui": {
+    "browser_style": false,
+    "open_in_tab": true,
+    "page": "/main.html"
+  }
+}
