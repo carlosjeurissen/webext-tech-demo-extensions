@@ -1,21 +1,63 @@
 'use strict';
 
-const msg = chrome.i18n.getMessage('popup_instructions_original', [
-  5,
-  "<a target='_blank' title='What is a third-party tracker?' href='https://privacybadger.org/#What-is-a-third-party-tracker'>",
-  '</a>',
-]);
-document.getElementById('placeholder-test-original').innerHTML = msg;
+const tests = [
+  {
+    title: 'Integer placeholders',
+    messageId: 'integer',
+    expected: '5 apples',
+    placeholders: [
+      5,
+    ],
+  },
+  {
+    title: 'Consequent placeholders',
+    messageId: 'consequent',
+    expected: 'FIRST SECONDTHIRD',
+    placeholders: [
+      'FIRST',
+      'SECOND',
+      'THIRD',
+    ],
+  },
+  {
+    title: 'Inner spaces',
+    messageId: 'innerspaces',
+    expected: 'placeholders',
+    placeholders: ['pl', 'holders'],
+  },
+  {
+    title: 'Whitespace collapse',
+    messageId: 'whitespacecollapse',
+    expected: '  one  middle  two  ',
+    placeholders: [' one ', ' two '],
+  },
+  {
+    title: 'Incomplete placeholders',
+    messageId: 'incomplete',
+    expected: '1: FIRST 2: SECOND 3: ',
+    placeholders: [
+      'FIRST',
+      'SECOND',
+    ],
+  },
+  {
+    title: 'Missing message',
+    messageId: 'message',
+    expected: '',
+  },
+];
 
-const msg2 = chrome.i18n.getMessage('popup_instructions_fixed', [
-  '5', // must be cast as string to appear
-  "<a target='_blank' title='What is a third-party tracker?' href='https://privacybadger.org/#What-is-a-third-party-tracker'>",
-  '</a>',
-]);
-document.getElementById('placeholder-test-fixed').innerHTML = msg2;
+for (const {
+  title, messageId, expected, placeholders,
+} of tests) {
+  const actual = chrome.i18n.getMessage(messageId, placeholders || null);
+  const hasError = expected !== actual;
+  const sectionEl = document.createElement('section');
+  sectionEl.innerHTML = `
+    <h3>${title || messageId}</h3>
+    <p>Expected: ${expected}</p>
+    <p${hasError ? ' role="alert"' : ''}>Actual: ${actual}</p>
+  `;
 
-const msg3 = chrome.i18n.getMessage('non_html_placeholder_test', ['pl', 'holders']);
-document.getElementById('non-html-placeholder-test').innerHTML = msg3;
-
-const msg4 = chrome.i18n.getMessage('non_html_placeholder_test_workaround', ['pl', 'holders']);
-document.getElementById('non-html-placeholder-test-workaround').innerHTML = msg4;
+  document.body.appendChild(sectionEl);
+}
