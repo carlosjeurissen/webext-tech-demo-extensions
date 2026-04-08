@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "webrequest-with-event-background-page",
+  "description": "webrequest-with-event-background-page",
+  "version": "1.0",
+  "permissions": [
+    "webRequest"
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["/background.js"],
+    "persistent": false
+  }
+}
