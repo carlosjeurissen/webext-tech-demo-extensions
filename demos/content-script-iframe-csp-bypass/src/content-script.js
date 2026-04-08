@@ -2,10 +2,10 @@
 
 const frameCol = document.getElementsByTagName('iframe');
 for (const frameEl of frameCol) {
-  const frameURL = new URL(frame.src);
+  const frameURL = new URL(frameEl.src);
 
   // Not www.youtube-nocookie.com frame.
-  if (!frame.src || frameURL.hostname !== 'www.youtube-nocookie.com') {
+  if (!frameEl.src || frameURL.hostname !== 'www.youtube-nocookie.com') {
     continue;
   }
 
