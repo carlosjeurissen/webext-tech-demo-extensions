@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "action-popup-content-script-css-data-image",
+  "description": "action-popup-content-script-css-data-image",
+  "version": "1.0",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "content_scripts": [{
+    "matches": [
+      "https://en.wikipedia.org/*"
+    ],
+    "all_frames": true,
+    "css": [ "content-script.css" ]
+  }],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}

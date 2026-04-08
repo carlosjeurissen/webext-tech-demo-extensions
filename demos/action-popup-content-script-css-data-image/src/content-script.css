@@ -1,0 +1,4 @@
+* {
+  background-color: lime;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.5 14.378v3.125h3.125l9.217-9.216-3.125-3.125L2.5 14.378zM17.258 5.87a.83.83 0 0 0 0-1.175l-1.95-1.95a.83.83 0 0 0-1.175 0L12.608 4.27l3.125 3.125 1.525-1.525z'/%3E%3C/svg%3E") !important;
+}
