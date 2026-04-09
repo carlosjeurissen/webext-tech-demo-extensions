@@ -31,7 +31,7 @@ setTimeout(() => {
 }, 1000);
 
 const frameEl = document.createElement('iframe');
-frameEl.src = chrome.runtime.getURL('/sub.html') + '#' + sessionId;
+frameEl.src = chrome.runtime.getURL('sub.html') + '#' + sessionId;
 frameEl.style.width = '90%';
 frameEl.style.height = '250px';
 document.body.appendChild(frameEl);

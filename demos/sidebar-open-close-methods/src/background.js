@@ -1,7 +1,7 @@
 'use strict';
 
 chrome.tabs.create({
-  url: chrome.runtime.getURL('/options.html'),
+  url: chrome.runtime.getURL('options.html'),
 });
 
 chrome.sidePanel.setOptions({

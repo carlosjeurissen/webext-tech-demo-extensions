@@ -7,7 +7,7 @@ function logMessage (text) {
 }
 
 const frameEl = document.createElement('iframe');
-frameEl.src = chrome.runtime.getURL('/frame.html');
+frameEl.src = chrome.runtime.getURL('frame.html');
 frameEl.style.width = '90%';
 frameEl.style.height = '250px';
 document.body.appendChild(frameEl);

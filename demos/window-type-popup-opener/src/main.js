@@ -1,6 +1,6 @@
 'use strict';
 
-const windowUrl = chrome.runtime.getURL('/window.html');
+const windowUrl = chrome.runtime.getURL('window.html');
 window.open(windowUrl, null, {
   popup: true,
 });

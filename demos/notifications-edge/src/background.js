@@ -6,7 +6,7 @@ function openDemo () {
   } catch (e) {
     console.error(e);
     chrome.tabs.create({
-      url: chrome.runtime.getURL('/main.html'),
+      url: chrome.runtime.getURL('main.html'),
     });
   }
 }

@@ -44,6 +44,6 @@ setTimeout(() => {
 
 openInNewEl.addEventListener('click', () => {
   chrome.tabs.create({
-    url: chrome.runtime.getURL('/popup.html'),
+    url: chrome.runtime.getURL('popup.html'),
   });
 });
