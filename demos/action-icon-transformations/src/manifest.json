@@ -4,10 +4,10 @@
   "description": "action-icon-transformations",
   "version": "1.0",
   "icons": {
-    "16": "single-16.png",
-    "19": "single-19.png",
-    "32": "single-32.png",
-    "38": "single-38.png"
+    "16": "unicolor-16.png",
+    "19": "unicolor-19.png",
+    "32": "unicolor-32.png",
+    "38": "unicolor-38.png"
   },
   "background": {
     "scripts": ["background.js"],
@@ -21,10 +21,10 @@
   ],
   "action": {
     "deafult_icon": {
-      "16": "single-16.png",
-      "19": "single-19.png",
-      "32": "single-32.png",
-      "38": "single-38.png"
+      "16": "unicolor-16.png",
+      "19": "unicolor-19.png",
+      "32": "unicolor-32.png",
+      "38": "unicolor-38.png"
     }
   }
 }

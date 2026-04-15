@@ -2,7 +2,7 @@ Extension uses a very tiny square as icon. Apple crops this whitespace for both 
 
 On macOS, a unicolor icon also gets recolored based on the current system color.
 
-By clicking the action icon, the extension switches to a dual tone icon which indicates it is not re-colored in the case of dual tone icons.
+By clicking the action icon, the extension switches to a gradient icon which indicates it is not re-colored in the case of gradient icons.
 
 See:
 https://github.com/w3c/webextensions/issues/795#issuecomment-3514855254
