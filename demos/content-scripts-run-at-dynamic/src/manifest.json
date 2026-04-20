@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "content-scripts-run-at-dynamic",
+  "description": "content-scripts-run-at-dynamic",
+  "version": "1.0",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["https://www.example.com/"]
+}

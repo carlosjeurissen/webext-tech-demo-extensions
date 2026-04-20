@@ -9,17 +9,17 @@ chrome.tabs.create({
 });
 
 const gradientIcons = {
-  "16": "gradient-16.png",
-  "19": "gradient-19.png",
-  "32": "gradient-32.png",
-  "38": "gradient-38.png"
+  16: 'gradient-16.png',
+  19: 'gradient-19.png',
+  32: 'gradient-32.png',
+  38: 'gradient-38.png',
 };
 
 const unicolorIcons = {
-  "16": "unicolor-16.png",
-  "19": "unicolor-19.png",
-  "32": "unicolor-32.png",
-  "38": "unicolor-38.png"
+  16: 'unicolor-16.png',
+  19: 'unicolor-19.png',
+  32: 'unicolor-32.png',
+  38: 'unicolor-38.png',
 };
 
 chrome.runtime.onInstalled.addListener(() => {});

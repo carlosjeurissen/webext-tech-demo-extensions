@@ -19,4 +19,4 @@ Given the following scenario:
 
 Chrome/Edge navigate the frame to youtube-nocookie.com even tho it does not comply with the page CSP. Subsequent navigations by the iframed document will again result in CSP compliance unless it is initiated by the extensions isolated world content script.
 
-Firefox/Safari do not allow the navigation to youtube-nocookie.com//embed/x, strictly complying with the page CSP.
+Firefox/Safari/Orion do not allow the navigation to youtube-nocookie.com//embed/x, strictly complying with the page CSP.
