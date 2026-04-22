@@ -20,6 +20,10 @@
   "side_panel": {
     "default_path": "sidebar.html"
   },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
   "sidebar_action": {
     "open_at_install": true,
     "default_panel": "sidebar.html"
@@ -33,6 +37,7 @@
     },
     {
       "matches": ["https://example.com/*"],
+      "css": ["cs-main.css"],
       "js": ["cs-main.js"],
       "all_frames": true,
       "world": "MAIN"

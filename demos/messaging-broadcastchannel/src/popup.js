@@ -2,23 +2,27 @@
 
 const bc = new BroadcastChannel('extension');
 const logsEl = document.getElementById('logs');
-const sendButtonEl = document.getElementById('send');
 
-bc.addEventListener('message', (event) => {
-  logsEl.textContent += `received: ${event.data.from} at ${event.data.time}
+function logToPage (message) {
+  console.log(message);
+  logsEl.textContent += `${message}
 `;
-});
+}
 
-sendButtonEl.addEventListener('click', () => {
-  bc.postMessage({
-    from: 'popup-button',
-    time: Date.now(),
-  });
-});
-
-setTimeout(() => {
+function sendMessage () {
   bc.postMessage({
     from: 'popup',
     time: Date.now(),
   });
-}, 1e3);
+}
+
+bc.addEventListener('message', (event) => {
+  logToPage(`[popup] ${event.data.from} at ${event.data.time}`);
+});
+
+setTimeout(sendMessage, 500);
+setInterval(sendMessage, 5e3);
+
+setTimeout(() => {
+  document.querySelector('iframe').src = 'https://example.com/popup';
+}, 500);

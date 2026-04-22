@@ -8,12 +8,15 @@ bc.addEventListener('message', (event) => {
   console.log('[background] received:', event.data.from, event.data.time);
 });
 
-setInterval(() => {
+function sendMessage () {
   bc.postMessage({
     from: 'background',
     time: Date.now(),
   });
-}, 5000);
+}
+
+setTimeout(sendMessage, 500);
+setInterval(sendMessage, 5e3);
 
 chrome.runtime.onInstalled.addListener(() => {});
 chrome.runtime.onStartup.addListener(() => {});

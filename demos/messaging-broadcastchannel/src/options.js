@@ -11,14 +11,18 @@ function logToPage (message) {
 
 function sendMessage () {
   bc.postMessage({
-    from: 'sidebar',
+    from: 'options',
     time: Date.now(),
   });
 }
 
 bc.addEventListener('message', (event) => {
-  logToPage(`[sidebar] ${event.data.from} at ${event.data.time}`);
+  logToPage(`[options] ${event.data.from} at ${event.data.time}`);
 });
 
 setTimeout(sendMessage, 500);
 setInterval(sendMessage, 5e3);
+
+setTimeout(() => {
+  document.querySelector('iframe').src = 'https://example.com/options';
+}, 500);

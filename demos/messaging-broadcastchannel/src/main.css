@@ -2,3 +2,15 @@ textarea {
   display: block;
   field-sizing: content;
 }
+
+iframe {
+  min-width: 600px;
+  min-height: 500px;
+}
+
+html,
+body {
+  min-width: 400px;
+  min-height: 400px;
+  margin: 0;
+}
