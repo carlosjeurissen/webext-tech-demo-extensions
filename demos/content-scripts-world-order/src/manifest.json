@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "content-scripts-world-order",
+  "description": "content-scripts-world-order",
+  "version": "1.0",
+  "host_permissions": ["https://example.com/*"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "action": {
+    "default_area": "navbar"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://example.com/*"],
+      "js": ["cs-1-isolated.js"],
+      "world": "ISOLATED"
+    },
+    {
+      "matches": ["https://example.com/*"],
+      "js": ["cs-2-main.js"],
+      "world": "MAIN"
+    },
+    {
+      "matches": ["https://example.com/*"],
+      "js": ["cs-3-isolated.js"],
+      "world": "ISOLATED"
+    },
+    {
+      "matches": ["https://example.com/*"],
+      "js": ["cs-4-main.js"],
+      "world": "MAIN"
+    }
+  ]
+}

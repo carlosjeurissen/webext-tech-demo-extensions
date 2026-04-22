@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "messaging-broadcastchannel",
+  "description": "messaging-broadcastchannel",
+  "version": "1.0",
+  "permissions": ["sidePanel"],
+  "host_permissions": ["https://example.com/*"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_area": "navbar"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "scripts": ["background.js"]
+  },
+  "side_panel": {
+    "default_path": "sidebar.html"
+  },
+  "sidebar_action": {
+    "open_at_install": true,
+    "default_panel": "sidebar.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://example.com/*"],
+      "js": ["cs-isolated.js"],
+      "all_frames": true,
+      "world": "ISOLATED"
+    },
+    {
+      "matches": ["https://example.com/*"],
+      "js": ["cs-main.js"],
+      "all_frames": true,
+      "world": "MAIN"
+    }
+  ]
+}
