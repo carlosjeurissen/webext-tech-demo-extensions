@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "permissions-hosts-protocol-mixed",
+  "description": "permissions-hosts-protocol-mixed",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "optional_host_permissions": [
+    "https://www.example.com/*",
+    "http://www.example.com/*",
+    "*://www.example.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {}
+}

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "commands-action-description",
+  "description": "commands-action-description",
+  "version": "1.0",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "action": {},
+  "commands": {
+    "_execute_action": {},
+    "command-without-description": {},
+    "command-with-description": {
+      "description": "This command has a description"
+    }
+  }
+}
