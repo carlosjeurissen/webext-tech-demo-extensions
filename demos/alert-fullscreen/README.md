@@ -12,4 +12,6 @@ See: https://github.com/microsoft/MicrosoftEdge-Extensions/issues/558#issuecomme
 ### Orion issue
 window does not go fullscreen, alert is visible
 
+Tested on Orion Version 1.0.6 (145), WebKit 624.1.7, Tahoe (26)
+
 See: https://orionfeedback.org/d/13694-chromewindowsupdatewindowid-state-fullscreen-fails
