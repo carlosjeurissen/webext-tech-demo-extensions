@@ -8,9 +8,12 @@ Safari has the following issue:
 When clicking the address-bar and enter https://www.example.com and hit enter, it says:
 This webpage was reloaded because a problem occured.
 (however it still redirects to https://www.example.org)
+(See screenshot 1)
 
 When repeating this, it clears the page and gives:
 A problem repeatedly occurred with:
 "https://www.example.org"
+(See screenshot 2)
 
-Bugreport: TBD
+### Links
+Feedback report: FB22656851
