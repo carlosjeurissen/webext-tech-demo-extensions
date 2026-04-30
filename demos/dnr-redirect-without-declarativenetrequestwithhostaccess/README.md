@@ -1,6 +1,5 @@
-###
-Setup:
-dnr rule which redirects example.com to google.com
+### Setup
+dnr rule which redirects example.com to example.org
 with permission declarativeNetRequest and www.example.com/*
 
 Chrome, Firefox and Orion redirect just fine.
@@ -8,3 +7,4 @@ Chrome, Firefox and Orion redirect just fine.
 Safari does not redirect and needs the declarativeNetRequestWithHostAccess permission
 
 ### Links
+Webkit bug: https://bugs.webkit.org/show_bug.cgi?id=313727

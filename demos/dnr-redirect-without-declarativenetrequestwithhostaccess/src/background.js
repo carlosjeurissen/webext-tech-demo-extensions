@@ -14,7 +14,7 @@ chrome.declarativeNetRequest.updateDynamicRules({
       },
       action: {
         type: 'redirect',
-        redirect: { url: 'https://www.google.com' },
+        redirect: { url: 'https://www.example.org' },
       },
     },
   ],
