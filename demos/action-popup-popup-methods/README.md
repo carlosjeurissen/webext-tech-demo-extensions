@@ -13,3 +13,6 @@ See: https://orionfeedback.org/d/12407-chromeactionsetpopup-popup-null-incorrect
 ### Safari
 Safari puts the popup icon in an unrecoverable state if set to an invalid popup path
 See: https://bugs.webkit.org/show_bug.cgi?id=303739
+
+### Edge Mobile
+See: https://github.com/microsoft/MicrosoftEdge-Extensions/issues/300 and https://github.com/microsoft/MicrosoftEdge-Extensions/issues/563

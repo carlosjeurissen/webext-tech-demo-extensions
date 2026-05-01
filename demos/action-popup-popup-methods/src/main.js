@@ -15,3 +15,7 @@ document.getElementById('ref-popup-set').addEventListener('click', () => {
 document.getElementById('ref-popup-set-invalid').addEventListener('click', () => {
   chrome.action.setPopup({ popup: 'invalid.html' });
 });
+
+document.getElementById('ref-popup-open').addEventListener('click', () => {
+  chrome.action.openPopup();
+});
