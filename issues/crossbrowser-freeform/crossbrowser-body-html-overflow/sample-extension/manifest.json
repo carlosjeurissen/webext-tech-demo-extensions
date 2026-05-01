@@ -3,15 +3,15 @@
   "name": "crossbrowser-body-html-overflow",
   "version": "1.0",
   "browser_action": {
-    "browser_style": false,
-    "default_popup": "/main.html"
+    "default_area": "navbar",
+    "default_popup": "main.html"
   },
   "options_ui": {
-    "page": "/main.html"
+    "page": "main.html"
   },
   "description": "crossbrowser-body-html-overflow",
   "icons": {
-    "16": "/icon.png",
-    "48": "/icon.png"
+    "16": "icon.png",
+    "48": "icon.png"
   }
 }

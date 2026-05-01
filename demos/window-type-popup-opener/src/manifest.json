@@ -15,6 +15,7 @@
     "service_worker": "background.js"
   },
   "action": {
+    "default_area": "navbar",
     "default_popup": "popup.html"
   }
 }

@@ -19,6 +19,7 @@
     "css": [ "content-script.css" ]
   }],
   "action": {
+    "default_area": "navbar",
     "default_popup": "popup.html"
   },
   "host_permissions": [

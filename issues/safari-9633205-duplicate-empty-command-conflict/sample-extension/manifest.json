@@ -4,13 +4,14 @@
   "description": "9633205-apple-commands-issue",
   "version": "1.0",
   "browser_action": {
-    "browser_style": false,
-    "default_popup": "/popup.html"
+    "default_area": "navbar",
+    "default_popup": "popup.html"
   },
   "commands": {
     "_execute_browser_action": {}
   },
   "icons": {
-    "16": "/icon.png"
+    "16": "icon.png",
+    "48": "icon.png"
   }
 }

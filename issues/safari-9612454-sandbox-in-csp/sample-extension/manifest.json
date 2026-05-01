@@ -4,11 +4,12 @@
   "version": "3.0",
   "content_security_policy": "sandbox allow-scripts",
   "browser_action": {
-    "browser_style": false,
+    "default_area": "navbar",
     "default_popup": "popup.html"
   },
   "description": "9612454-apple-sandbox-issue",
   "icons": {
-    "16": "/icon.png"
+    "16": "icon.png",
+    "48": "icon.png"
   }
 }

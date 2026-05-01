@@ -1,12 +1,13 @@
 'use strict';
 
-function openTab () {
+try {
+  chrome.runtime.openOptionsPage();
+} catch (e) {
+  console.error(e);
   chrome.tabs.create({
     url: chrome.runtime.getURL('main.html'),
   });
 }
-
-openTab();
 
 chrome.runtime.onInstalled.addListener(() => {});
 chrome.runtime.onStartup.addListener(() => {});

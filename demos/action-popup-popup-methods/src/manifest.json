@@ -8,17 +8,16 @@
     "48": "icon.png"
   },
   "background": {
-    "scripts": ["/background.js"],
-    "service_worker": "/background.js"
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
   },
   "action": {
-    "default_popup": "/popup.html",
-    "default_area": "navbar"
+    "default_area": "navbar",
+    "default_popup": "popup.html"
   },
   "options_ui": {
-    "page": "/main.html",
-    "browser_style": false,
+    "page": "main.html",
     "open_in_tab": true
   },
-  "options_page": "/main.html"
+  "options_page": "main.html"
 }

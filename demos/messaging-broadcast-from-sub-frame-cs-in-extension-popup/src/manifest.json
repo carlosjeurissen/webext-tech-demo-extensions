@@ -9,18 +9,18 @@
   "content_scripts": [{
     "all_frames": true,
     "matches": ["https://www.example.com/test*"],
-    "js": ["/content-script.js"]
+    "js": ["content-script.js"]
   }],
   "icons": {
     "16": "icon.png",
     "48": "icon.png"
   },
   "background": {
-    "scripts": ["/background.js"],
-    "service_worker": "/background.js"
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
   },
   "action": {
     "default_area": "navbar",
-    "default_popup": "/popup.html"
+    "default_popup": "popup.html"
   }
 }

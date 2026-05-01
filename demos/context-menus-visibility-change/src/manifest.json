@@ -19,5 +19,7 @@
     "contextMenus",
     "menus"
   ],
-  "action": {}
+  "action": {
+    "default_area": "navbar"
+  }
 }

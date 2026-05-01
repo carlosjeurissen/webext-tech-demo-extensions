@@ -11,14 +11,15 @@
     "https://*.example.com/*"
   ],
   "action": {
-    "default_popup": "/popup.html"
+    "default_area": "navbar",
+    "default_popup": "popup.html"
   },
   "background": {
-    "service_worker": "/background.js",
-    "scripts": ["/background.js"]
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
   },
   "content_scripts": [{
-    "js": ["/content-script.js"],
+    "js": ["content-script.js"],
     "matches": ["https://*.example.com/*"],
     "all_frames": true
   }]

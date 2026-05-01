@@ -20,6 +20,7 @@
     "storage"
   ],
   "action": {
+    "default_area": "navbar",
     "default_icon": {
       "16": "unicolor-16.png",
       "19": "unicolor-19.png",

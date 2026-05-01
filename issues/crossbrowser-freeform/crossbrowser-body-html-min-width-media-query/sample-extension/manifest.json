@@ -3,15 +3,15 @@
   "name": "freeform-crossbrowser-body-html-min-width-media-query",
   "version": "1.0",
   "browser_action": {
-    "browser_style": false,
-    "default_popup": "/main.html"
+    "default_area": "navbar",
+    "default_popup": "main.html"
   },
   "options_ui": {
-    "page": "/main.html"
+    "page": "main.html"
   },
   "description": "freeform-crossbrowser-body-html-min-width-media-query",
   "icons": {
-    "16": "/icon.png",
-    "48": "/icon.png"
+    "16": "icon.png",
+    "48": "icon.png"
   }
 }

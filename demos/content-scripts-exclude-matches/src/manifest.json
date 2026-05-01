@@ -10,7 +10,7 @@
   "host_permissions": ["https://*.example.com/*"],
   "permissions": ["scripting"],
   "background": {
-    "service_worker": "/background.js",
-    "scripts": ["/background.js"]
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
   }
 }

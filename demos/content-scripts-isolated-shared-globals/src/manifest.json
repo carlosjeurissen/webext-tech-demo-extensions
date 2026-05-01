@@ -11,8 +11,8 @@
     "scripting"
   ],
   "background": {
-    "scripts": ["/background.js"],
-    "service_worker": "/background.js"
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
   },
   "content_scripts": [{
     "matches": ["<all_urls>"],

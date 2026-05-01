@@ -13,15 +13,15 @@
     "https://example.com/*"
   ],
   "action": {
-    "browser_style": false,
-    "default_popup": "/popup.html"
+    "default_area": "navbar",
+    "default_popup": "popup.html"
   },
   "icons": {
     "16": "icon.png",
     "48": "icon.png"
   },
   "background": {
-    "scripts": ["/background.js"],
-    "service_worker": "/background.js"
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
   }
 }

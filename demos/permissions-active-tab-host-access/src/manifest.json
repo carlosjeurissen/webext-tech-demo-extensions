@@ -17,6 +17,6 @@
   },
   "action": {
     "default_area": "navbar",
-    "default_popup": "/popup.html"
+    "default_popup": "popup.html"
   }
 }

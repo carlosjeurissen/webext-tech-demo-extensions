@@ -9,6 +9,7 @@
   },
   "options_page": "/options.html",
   "action": {
-    "default_popup": "/popup.html"
+    "default_area": "navbar",
+    "default_popup": "popup.html"
   }
 }

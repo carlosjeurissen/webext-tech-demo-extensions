@@ -7,9 +7,11 @@
     "extension_pages": "default-src 'none'; script-src-elem 'self' https:"
   },
   "action": {
-    "default_popup": "/popup.html"
+    "default_area": "navbar",
+    "default_popup": "popup.html"
   },
   "icons": {
-    "16": "/icon.png"
+    "16": "icon.png",
+    "48": "icon.png"
   }
 }

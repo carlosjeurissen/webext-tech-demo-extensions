@@ -8,8 +8,8 @@
     "48": "icon.png"
   },
   "background": {
-    "scripts": [ "/background.js" ],
-    "service_worker": "/background.js"
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
   },
   "permissions": [
     "declarativeNetRequest"
@@ -17,5 +17,7 @@
   "host_permissions": [
     "https://www.example.com/*"
   ],
-  "action": {}
+  "action": {
+    "default_area": "navbar"
+  }
 }

@@ -9,16 +9,15 @@
   },
   "permissions": ["sidePanel"],
   "background": {
-    "scripts": ["/background.js"],
-    "service_worker": "/background.js"
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
   },
   "action": {
-    "default_popup": "/options.html",
-    "default_area": "navbar"
+    "default_area": "navbar",
+    "default_popup": "/options.html"
   },
   "options_ui": {
     "page": "/options.html",
-    "browser_style": false,
     "open_in_tab": true
   },
   "options_page": "/options.html"

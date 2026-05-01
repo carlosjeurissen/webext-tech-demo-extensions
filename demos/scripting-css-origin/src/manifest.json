@@ -40,5 +40,7 @@
     "scripts": ["background.js"],
     "service_worker": "background.js"
   },
-  "action": {}
+  "action": {
+    "default_area": "navbar"
+  }
 }
