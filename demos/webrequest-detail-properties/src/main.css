@@ -1,0 +1,72 @@
+body {
+  width: 800px;
+  margin: 0;
+  background-color: rgb(255 255 255);
+  color: rgb(26 26 26);
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+.x-container {
+  padding: 16px;
+}
+
+.x-header {
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgb(238 238 238);
+}
+
+.x-status-text {
+  color: rgb(102 102 102);
+  font-family: monospace;
+  font-size: 11px;
+}
+
+.x-table-wrapper {
+  overflow-x: auto;
+}
+
+.x-matrix-table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 12px;
+}
+
+.x-matrix-table th,
+.x-matrix-table td {
+  padding: 8px;
+  border: 1px solid rgb(224 224 224);
+  text-align: center;
+}
+
+.x-matrix-table th {
+  background-color: rgb(248 249 250);
+  font-weight: 600;
+}
+
+.x-prop-name-cell {
+  width: 180px;
+  background-color: rgb(253 253 253);
+  font-family: monospace;
+  text-align: left !important;
+}
+
+.x-check-mark {
+  color: rgb(40 167 69);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.x-unknown-row {
+  background-color: rgb(255 249 219) !important;
+}
+
+.x-unknown-label {
+  margin-left: 4px;
+  color: rgb(240 140 0);
+  font-weight: 700;
+  font-size: 9px;
+}
