@@ -22,6 +22,10 @@ chrome.declarativeNetRequest.updateDynamicRules({
       },
     },
   ],
+}, () => {
+  chrome.tabs.create({
+    url: 'https://www.example.com/',
+  });
 });
 
 console.log('Adding session rules...');
@@ -46,4 +50,14 @@ chrome.declarativeNetRequest.updateSessionRules({
       },
     },
   ],
+}, () => {
+  chrome.tabs.create({
+    url: 'https://www.example.org/',
+  });
 });
+
+fetch('https://www.example.com/');
+fetch('https://www.example.org/');
+
+chrome.runtime.onInstalled.addListener(() => {});
+chrome.runtime.onStartup.addListener(() => {});

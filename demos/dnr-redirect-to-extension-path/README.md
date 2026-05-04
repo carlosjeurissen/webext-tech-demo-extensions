@@ -4,7 +4,10 @@ Sample extension registers session and dynamic dnr rules with redirects using ex
 The rules cover the domains example.org and example.com.
 
 In Chrome and Firefox, the redirects work fine. However in Safari, this results in the following error:
+
 Safari can’t open the page. The error is: “The operation couldn’t be completed. (NSURLErrorDomain error -1008.)” (NSURLErrorDomain:-1,008).
+
+Issue has been fixed in Safari 26.1.
 
 ### Links
 WebKit bug report:
