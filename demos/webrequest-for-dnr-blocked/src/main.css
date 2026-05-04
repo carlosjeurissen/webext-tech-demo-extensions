@@ -1,0 +1,6 @@
+body {
+  min-width: 300px;
+  padding: 10px;
+  font-family: monospace;
+  white-space: pre-wrap;
+}

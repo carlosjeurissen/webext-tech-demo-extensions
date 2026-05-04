@@ -1,14 +1,16 @@
 {
-    "manifest_version": 3,
-    "name": "dnr-domaintype-thirdparty",
-    "version": "1.0",
-    "description": "Demo extension showcasing issues regarding thirdParty domainType in DNR.",
-    "permissions": [ "declarativeNetRequest" ],
-    "background": {
-        "scripts": ["background.js"],
-        "service_worker": "background.js"
-    },
-    "host_permissions": [
-        "<all_urls>"
-    ]
+  "manifest_version": 3,
+  "name": "dnr-domaintype-thirdparty",
+  "version": "1.0",
+  "description": "Demo extension showcasing issues regarding thirdParty domainType in DNR.",
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
 }
