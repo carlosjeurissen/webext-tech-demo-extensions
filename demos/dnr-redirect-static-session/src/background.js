@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-const demoUrl = 'https://www.example.nl/door-sidn/';
+const demoUrl = 'https://www.example.nl/';
 
 // trigger safari permission prompt
 fetch(demoUrl);
@@ -31,6 +31,6 @@ chrome.declarativeNetRequest.updateSessionRules({
   }],
 }).then(openDemo, console.error);
 
-chrome.runtime.onInstalled.addListener(openDemo);
-chrome.runtime.onStartup.addListener(openDemo);
+chrome.runtime.onInstalled.addListener(() => {});
+chrome.runtime.onStartup.addListener(() => {});
 chrome.action.onClicked.addListener(openDemo);
