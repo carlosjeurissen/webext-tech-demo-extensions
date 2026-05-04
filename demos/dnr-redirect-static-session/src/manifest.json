@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "dnr-redirect-static-session",
+  "description": "Opens example.nl which should redirect to example.com, yet it incorrectly redirects to example.org on Safari",
+  "version": "1.0",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "scripts": [ "background.js" ]
+  },
+  "action": {
+    "default_area": "navbar"
+  },
+  "permissions": [
+    "declarativeNetRequestWithHostAccess",
+    "declarativeNetRequestFeedback"
+  ],
+  "host_permissions": [
+    "https://www.example.nl/*",
+    "https://www.example.org/*",
+    "https://www.example.com/*",
+    "<all_urls>"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset",
+      "enabled": true,
+      "path": "ruleset.json"
+    }]
+  }
+}

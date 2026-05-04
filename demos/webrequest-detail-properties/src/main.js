@@ -70,7 +70,7 @@ const statusDisplayEl = document.getElementById('ref-status-display');
  * Formats values for display.
  * Returns an object with { display, full } or null.
  */
-function formatCaptureValue(propertyName, value) {
+function formatCaptureValue (propertyName, value) {
   if (value === undefined || value === null) return null;
 
   let resultString;
@@ -90,13 +90,13 @@ function formatCaptureValue(propertyName, value) {
   if (resultString.length > 20) {
     return {
       display: resultString.slice(0, 17) + '…', // Using UTF-8 ellipsis
-      full: resultString
+      full: resultString,
     };
   }
 
   return {
     display: resultString,
-    full: null
+    full: null,
   };
 }
 
