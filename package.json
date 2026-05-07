@@ -8,7 +8,7 @@
     "email": "github@jeurissen.co"
   },
   "devDependencies": {
-    "eslint": "^10.0.3",
+    "eslint": "^9.39.4",
     "eslint-config-ccb": "^0.38.0",
     "stylelint": "^17.4.0",
     "stylelint-config-ccb": "^3.30.1"
