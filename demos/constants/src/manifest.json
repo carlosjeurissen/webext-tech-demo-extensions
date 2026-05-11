@@ -1,0 +1,54 @@
+{
+  "manifest_version": 3,
+  "name": "constants",
+  "description": "constants",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "permissions": [
+    "alarms",
+    "bookmarks",
+    "browsingData",
+    "certificateProvider",
+    "contentSettings",
+    "contextMenus",
+    "debugger",
+    "declarativeNetRequest",
+    "downloads",
+    "history",
+    "idle",
+    "management",
+    "notifications",
+    "offscreen",
+    "power",
+    "printing",
+    "privacy",
+    "runtime",
+    "scripting",
+    "sessions",
+    "sidePanel",
+    "storage",
+    "system.cpu",
+    "system.display",
+    "system.memory",
+    "tabGroups",
+    "tabs",
+    "webNavigation",
+    "webRequest"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar",
+    "default_popup": "popup.html"
+  },
+  "options_ui": {
+    "page": "main.html",
+    "open_in_tab": true
+  },
+  "options_page": "main.html"
+}
