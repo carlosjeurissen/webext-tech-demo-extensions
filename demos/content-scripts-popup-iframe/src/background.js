@@ -1,8 +1,12 @@
 'use strict';
 
-function openDemo () {
-  chrome.action.openPopup();
-}
+chrome.runtime.onInstalled.addListener(() => {});
+chrome.runtime.onStartup.addListener(() => {});
 
-chrome.runtime.onInstalled.addListener(openDemo);
-chrome.runtime.onStartup.addListener(openDemo);
+chrome.tabs.create({
+  url: chrome.runtime.getURL('popup.html'),
+}, () => {
+  chrome.action.openPopup();
+});
+
+fetch('https://www.example.com/*');
