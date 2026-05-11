@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "9637605-all_frames contentscript popup issue",
   "description": "9637605-all_frames contentscript popup issue",
-  "version": "1.0",
+  "version": "0.0.1",
   "permissions": [
     "<all_urls>"
   ],

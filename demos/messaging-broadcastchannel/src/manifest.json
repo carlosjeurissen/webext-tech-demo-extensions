@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "messaging-broadcastchannel",
   "description": "messaging-broadcastchannel",
-  "version": "1.0",
+  "version": "0.0.1",
   "permissions": ["sidePanel"],
   "host_permissions": ["https://example.com/*"],
   "icons": {

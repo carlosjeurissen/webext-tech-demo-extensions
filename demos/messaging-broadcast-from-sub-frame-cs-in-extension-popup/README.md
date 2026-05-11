@@ -1,15 +1,18 @@
+# messaging-broadcast-from-sub-frame-cs-in-extension-popup
+
 ### Setup
-top frame is extension page opened as action popup
-sub frame is third party website with extension content script
+Make sure permission to https://www.example.com/ is granted
 
-Broadcasting a message from the extension content script fails in Safari and Orion. While it is successful in Chrome and Firefox.
+The extension will open the action popup, which contains an iframe with https://www.example.com/test
 
-### Demo
-Open the action popup and grant host permissions if needed.
+There is a content script for this subframe which tries to broadcasting an extension message.
 
-The popup will create an iframe for example.com. The extension loads a content script which tries to run `runtime.sendMessage`. If successful, the background script will open a new tab stating "message received". If not, nothing happens.
+If the background page successfully receives the message, it will open a success page in a new tab.
 
-### Links
+### Webkit bug 246620 - message not sent
+Because there is no tab, Safari fails sending the message with the error:
+`Tab not found`
+
 WebKit bug report:
 https://bugs.webkit.org/show_bug.cgi?id=246620
 
@@ -21,3 +24,29 @@ https://developer.apple.com/forums/thread/690249
 
 Apple radar:
 rdar://83280648
+
+### Webkit bug 314550 - chrome.runtime.sendMessage misses lastError
+With this code:
+```js
+chrome.runtime.sendMessage('test', () => {
+  if (chrome.runtime.lastError) {
+    reject();
+  } else {
+    resolve();
+  }
+});
+````
+
+Safari does not define lastError, yet logs this to the console:
+Error: Unchecked `runtime.lastError`: Invalid call to `runtime.sendMessage()`. Tab not found.
+
+Webkit bug report:
+https://bugs.webkit.org/show_bug.cgi?id=314550
+
+Radar:
+rdar://problem/176784505
+
+Tested on Safari Version 26.4 (21624.1.16.11.4)
+
+### Orion bug - message not sent
+https://orionfeedback.org/d/12399-extension-messages-sent-by-an-action-popup-are-not-received-by-the-extension-background-page

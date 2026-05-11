@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Safari content script query match issue",
   "description": "Safari content script query match issue",
-  "version": "1.0",
+  "version": "0.0.1",
   "icons": {
     "16": "icon.png",
     "48": "icon.png"

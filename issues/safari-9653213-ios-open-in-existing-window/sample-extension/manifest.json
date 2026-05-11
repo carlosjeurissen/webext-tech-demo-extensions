@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Safari open tabs in existing windows issue",
   "description": "Safari open tabs in existing windows issue",
-  "version": "1.0",
+  "version": "0.0.1",
   "permissions": [
     "<all_urls>",
     "tabs",

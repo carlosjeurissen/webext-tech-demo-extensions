@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "webrequest-with-event-background-page",
   "description": "webrequest-with-event-background-page",
-  "version": "1.0",
+  "version": "0.0.1",
   "permissions": [
     "webRequest"
   ],

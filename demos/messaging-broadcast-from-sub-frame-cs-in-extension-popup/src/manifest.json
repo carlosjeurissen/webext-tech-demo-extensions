@@ -2,14 +2,15 @@
   "manifest_version": 3,
   "name": "messaging-broadcast-from-sub-frame-cs-in-extension-popup",
   "description": "messaging-broadcast-from-sub-frame-cs-in-extension-popup",
-  "version": "1.0",
+  "version": "0.0.2",
   "host_permissions": [
-    "https://www.example.com/test*"
+    "https://www.example.com/*"
   ],
   "content_scripts": [{
     "all_frames": true,
-    "matches": ["https://www.example.com/test*"],
-    "js": ["content-script.js"]
+    "matches": ["https://www.example.com/*"],
+    "js": ["content-script.js"],
+    "run_at": "document_idle"
   }],
   "icons": {
     "16": "icon.png",
