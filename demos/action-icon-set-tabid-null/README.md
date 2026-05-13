@@ -13,3 +13,4 @@ Safari does not consider this valid and throws with:
 
 See:
 https://bugs.webkit.org/show_bug.cgi?id=314725
+rdar://problem/176975795
