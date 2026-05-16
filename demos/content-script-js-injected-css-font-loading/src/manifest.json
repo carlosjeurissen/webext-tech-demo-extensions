@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "content-script-js-injected-css-font-loading",
+  "description": "content-script-js-injected-css-font-loading",
+  "author": "Jeff Johnson adapted by Carlos Jeurissen",
+  "version": "0.0.2",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content-script.js"],
+    "run_at": "document_idle"
+  }],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_area": "navbar"
+  }
+}
