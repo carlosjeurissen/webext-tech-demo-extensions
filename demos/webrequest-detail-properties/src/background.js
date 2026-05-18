@@ -13,8 +13,9 @@ function openDemo () {
 
 openDemo();
 
-chrome.runtime.onInstalled.addListener(openDemo);
-chrome.runtime.onStartup.addListener(openDemo);
+chrome.runtime.onInstalled.addListener(() => {});
+chrome.runtime.onStartup.addListener(() => {});
 chrome.action.onClicked.addListener(openDemo);
 
+// trigger permission prompt on Safari
 fetch('https://www.example.com/');
