@@ -2,14 +2,15 @@
   "manifest_version": 3,
   "name": "background-unknown-key",
   "description": "background-unknown-key",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
     "16": "icon.png",
     "48": "icon.png"
   },
   "background": {
-    "service_worker": "background.js",
     "scripts": ["background.js"],
+    "service_worker": "background.js",
     "async_initialization": true,
     "unknown_key": ["test"]
   }

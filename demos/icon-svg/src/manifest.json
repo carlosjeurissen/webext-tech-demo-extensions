@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "icon-svg",
   "description": "icon-svg",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "background": {
     "scripts": ["background.js"],

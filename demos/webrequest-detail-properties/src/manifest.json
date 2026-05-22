@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "webrequest-detail-properties",
   "description": "webrequest-detail-properties",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
     "16": "icon.png",
@@ -11,18 +12,18 @@
     "scripts": ["background.js"],
     "service_worker": "background.js"
   },
+  "action": {
+    "default_area": "navbar"
+  },
+  "options_page": "main.html",
+  "options_ui": {
+    "page": "main.html",
+    "open_in_tab": true
+  },
   "permissions": [
     "webRequest"
   ],
   "host_permissions": [
     "https://www.example.com/*"
-  ],
-  "action": {
-    "default_area": "navbar"
-  },
-  "options_ui": {
-    "page": "main.html",
-    "open_in_tab": true
-  },
-  "options_page": "main.html"
+  ]
 }

@@ -2,8 +2,24 @@
   "manifest_version": 3,
   "name": "dnr-in-extension-page",
   "description": "dnr-in-extension-page",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
-  "author": "carlosjeurissen",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar"
+  },
+  "options_page": "main.html",
+  "options_ui": {
+    "page": "main.html",
+    "open_in_tab": true
+  },
   "permissions": [
     "declarativeNetRequestWithHostAccess",
     "webRequest"
@@ -11,22 +27,6 @@
   "host_permissions": [
     "https://httpbin.org/anything/dnr-in-extension-page/*"
   ],
-  "icons": {
-    "16": "icon.png",
-    "48": "icon.png"
-  },
-  "background": {
-    "service_worker": "background.js",
-    "scripts": [ "background.js" ]
-  },
-  "action": {
-    "default_area": "navbar"
-  },
-  "options_ui": {
-    "page": "main.html",
-    "open_in_tab": true
-  },
-  "options_page": "main.html",
   "declarative_net_request": {
     "rule_resources": [{
       "id": "ruleset",

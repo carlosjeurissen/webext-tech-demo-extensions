@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "action-popup-content-script-css-data-image",
   "description": "action-popup-content-script-css-data-image",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
     "16": "icon.png",
@@ -11,6 +12,10 @@
     "scripts": ["background.js"],
     "service_worker": "background.js"
   },
+  "action": {
+    "default_area": "navbar",
+    "default_popup": "popup.html"
+  },
   "content_scripts": [{
     "matches": [
       "https://en.wikipedia.org/*"
@@ -18,10 +23,6 @@
     "all_frames": true,
     "css": [ "content-script.css" ]
   }],
-  "action": {
-    "default_area": "navbar",
-    "default_popup": "popup.html"
-  },
   "host_permissions": [
     "<all_urls>"
   ]

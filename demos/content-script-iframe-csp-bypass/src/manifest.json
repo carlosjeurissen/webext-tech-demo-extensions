@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "content-script-iframe-csp-bypass",
   "description": "content-script-iframe-csp-bypass",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
     "16": "icon.png",

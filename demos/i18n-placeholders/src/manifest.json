@@ -1,28 +1,24 @@
 {
   "manifest_version": 3,
-  "default_locale": "en",
-
   "name": "i18n-placeholders",
   "description": "i18n-placeholders",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
-
   "icons": {
     "16": "icon.png",
     "48": "icon.png"
   },
-
   "background": {
     "scripts": ["background.js"],
     "service_worker": "background.js"
   },
-
   "action": {
     "default_area": "navbar"
   },
-
+  "options_page": "main.html",
   "options_ui": {
     "page": "main.html",
     "open_in_tab": true
   },
-  "options_page": "main.html"
+  "default_locale": "en"
 }

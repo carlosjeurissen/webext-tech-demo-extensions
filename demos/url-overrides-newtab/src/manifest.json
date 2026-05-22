@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "url-overrides-newtab",
   "description": "url-overrides-newtab",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
     "16": "/icon.png",
@@ -12,12 +13,12 @@
     "scripts": ["background.js"],
     "service_worker": "background.js"
   },
-  "chrome_url_overrides": {
-    "newtab": "/newtab.html?env=newtab"
-  },
+  "options_page": "/newtab.html?env=options",
   "options_ui": {
     "page": "/newtab.html?env=options",
     "open_in_tab": true
   },
-  "options_page": "/newtab.html?env=options"
+  "chrome_url_overrides": {
+    "newtab": "/newtab.html?env=newtab"
+  }
 }

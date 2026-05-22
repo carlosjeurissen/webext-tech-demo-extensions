@@ -1,7 +1,12 @@
 {
   "manifest_version": 3,
   "name": "dnr-domaintype-thirdparty",
-  "version": "0.0.1",
+  "author": "Dmitry Seregin adapted by Carlos Jeurissen",
+  "version": "0.0.2",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
   "description": "Demo extension showcasing issues regarding thirdParty domainType in DNR.",
   "background": {
     "scripts": ["background.js"],

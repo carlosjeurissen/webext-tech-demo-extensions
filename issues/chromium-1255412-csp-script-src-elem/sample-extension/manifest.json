@@ -2,16 +2,17 @@
   "manifest_version": 3,
   "name": "chrome-csp-script-src-elem",
   "description": "chrome-csp-script-src-elem",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
-  "content_security_policy": {
-    "extension_pages": "default-src 'none'; script-src-elem 'self' https:"
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
   },
   "action": {
     "default_area": "navbar",
     "default_popup": "popup.html"
   },
-  "icons": {
-    "16": "icon.png",
-    "48": "icon.png"
+  "content_security_policy": {
+    "extension_pages": "default-src 'none'; script-src-elem 'self' https:"
   }
 }

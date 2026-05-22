@@ -1,19 +1,20 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Safari merged sync and local storage issue",
   "description": "Safari merged sync and local storage issue",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
-  "permissions": [
-    "storage"
-  ],
   "icons": {
     "16": "icon.png",
     "48": "icon.png"
   },
   "background": {
     "scripts": ["background.js"],
-    "persistent": false
+    "service_worker": "background.js"
   },
+  "permissions": [
+    "storage"
+  ],
   "browser_specific_settings": {
     "gecko": {
       "id": "example@required-for-storage.com"

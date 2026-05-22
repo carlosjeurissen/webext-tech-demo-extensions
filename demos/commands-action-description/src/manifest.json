@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "commands-action-description",
   "description": "commands-action-description",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
     "16": "icon.png",

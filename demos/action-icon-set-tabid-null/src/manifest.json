@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "action-icon-set-tabid-null",
   "description": "action-icon-set-tabid-null",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
     "16": "icon.png",

@@ -2,7 +2,16 @@
   "manifest_version": 3,
   "name": "messaging-top-frame-cs-to-extension-sub-frame",
   "description": "messaging-top-frame-cs-to-extension-sub-frame",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
   "host_permissions": [
     "https://*.example.com/*"
   ],
@@ -16,13 +25,5 @@
       "resources": [ "/frame.html" ],
       "matches": [ "https://*.example.com/*" ]
     }
-  ],
-  "icons": {
-    "16": "icon.png",
-    "48": "icon.png"
-  },
-  "background": {
-    "scripts": ["background.js"],
-    "service_worker": "background.js"
-  }
+  ]
 }

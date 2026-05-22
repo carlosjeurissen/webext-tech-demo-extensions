@@ -2,23 +2,24 @@
   "manifest_version": 3,
   "name": "sidebar-open-close-methods",
   "description": "sidebar-open-close-methods",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
     "16": "icon.png",
     "48": "icon.png"
   },
-  "permissions": ["sidePanel"],
   "background": {
     "scripts": ["background.js"],
     "service_worker": "background.js"
   },
   "action": {
     "default_area": "navbar",
-    "default_popup": "/options.html"
+    "default_popup": "options.html"
   },
+  "options_page": "options.html",
   "options_ui": {
-    "page": "/options.html",
+    "page": "options.html",
     "open_in_tab": true
   },
-  "options_page": "/options.html"
+  "permissions": ["sidePanel"]
 }

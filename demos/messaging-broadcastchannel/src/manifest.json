@@ -2,20 +2,21 @@
   "manifest_version": 3,
   "name": "messaging-broadcastchannel",
   "description": "messaging-broadcastchannel",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
-  "permissions": ["sidePanel"],
-  "host_permissions": ["https://example.com/*"],
   "icons": {
     "16": "icon.png",
     "48": "icon.png"
   },
-  "action": {
-    "default_area": "navbar",
-    "default_popup": "popup.html"
-  },
   "background": {
     "scripts": ["background.js"],
     "service_worker": "background.js"
+  },
+  "permissions": ["sidePanel"],
+  "host_permissions": ["https://example.com/*"],
+  "action": {
+    "default_area": "navbar",
+    "default_popup": "popup.html"
   },
   "side_panel": {
     "default_path": "sidebar.html"

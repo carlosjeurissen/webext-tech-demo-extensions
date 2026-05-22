@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "firefox-1954637-empty-background-scripts",
   "description": "firefox-1954637-empty-background-scripts",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
     "16": "icon.png",

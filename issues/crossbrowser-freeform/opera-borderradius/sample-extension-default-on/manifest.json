@@ -1,14 +1,15 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "freeform-opera-borderradius-on",
-  "version": "0.0.1",
-  "browser_action": {
-    "default_area": "navbar",
-    "default_popup": "main.html"
-  },
   "description": "freeform-opera-borderradius-on",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
   "icons": {
     "16": "icon.png",
     "48": "icon.png"
+  },
+  "action": {
+    "default_area": "navbar",
+    "default_popup": "main.html"
   }
 }

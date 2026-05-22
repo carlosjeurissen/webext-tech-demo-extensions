@@ -2,12 +2,17 @@
   "manifest_version": 3,
   "name": "runtime-open-options-page-from-action-popup",
   "description": "runtime-open-options-page-from-action-popup",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
     "16": "icon.png",
     "48": "icon.png"
   },
-  "options_page": "/options.html",
+  "options_page": "options.html",
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
   "action": {
     "default_area": "navbar",
     "default_popup": "popup.html"

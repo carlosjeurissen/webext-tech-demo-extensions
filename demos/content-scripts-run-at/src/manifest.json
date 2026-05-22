@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "content-scripts-run-at",
   "description": "content-scripts-run-at",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
     "16": "icon.png",

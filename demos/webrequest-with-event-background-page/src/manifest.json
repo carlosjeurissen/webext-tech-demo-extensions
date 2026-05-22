@@ -1,11 +1,9 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "webrequest-with-event-background-page",
   "description": "webrequest-with-event-background-page",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
-  "permissions": [
-    "webRequest"
-  ],
   "icons": {
     "16": "icon.png",
     "48": "icon.png"
@@ -13,5 +11,8 @@
   "background": {
     "scripts": ["background.js"],
     "persistent": false
-  }
+  },
+  "permissions": [
+    "webRequest"
+  ]
 }

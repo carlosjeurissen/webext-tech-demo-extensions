@@ -1,15 +1,18 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "9612454-apple-sandbox-issue",
-  "version": "3.0",
-  "content_security_policy": "sandbox allow-scripts",
-  "browser_action": {
-    "default_area": "navbar",
-    "default_popup": "popup.html"
-  },
   "description": "9612454-apple-sandbox-issue",
+  "author": "Carlos Jeurissen",
+  "version": "0.3.3",
   "icons": {
     "16": "icon.png",
     "48": "icon.png"
+  },
+  "action": {
+    "default_area": "navbar",
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "sandbox allow-scripts"
   }
 }

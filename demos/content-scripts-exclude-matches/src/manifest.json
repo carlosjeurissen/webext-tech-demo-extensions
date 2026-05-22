@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "content-scripts-exclude-matches",
   "description": "content-scripts-exclude-matches",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
     "16": "icon.png",

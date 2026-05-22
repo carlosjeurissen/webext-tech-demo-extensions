@@ -2,7 +2,20 @@
   "manifest_version": 3,
   "name": "webrequest-for-frames-in-popup",
   "description": "webrequest-for-frames-in-popup",
+  "author": "Carlos Jeurissen",
   "version": "5.0",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar",
+    "default_popup": "popup.html"
+  },
   "permissions": [
     "webRequest"
   ],
@@ -11,17 +24,5 @@
     "https://*.example.com/*",
     "https://example.org/*",
     "https://example.com/*"
-  ],
-  "action": {
-    "default_area": "navbar",
-    "default_popup": "popup.html"
-  },
-  "icons": {
-    "16": "icon.png",
-    "48": "icon.png"
-  },
-  "background": {
-    "scripts": ["background.js"],
-    "service_worker": "background.js"
-  }
+  ]
 }

@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "options-open-options-page",
   "description": "options-open-options-page",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
     "16": "icon.png",
@@ -14,9 +15,9 @@
   "action": {
     "default_area": "navbar"
   },
+  "options_page": "options.html",
   "options_ui": {
     "page": "options.html",
     "open_in_tab": false
-  },
-  "options_page": "options.html"
+  }
 }

@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "action-popup-popup-methods",
   "description": "action-popup-popup-methods",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
     "16": "icon.png",
@@ -15,9 +16,9 @@
     "default_area": "navbar",
     "default_popup": "popup.html"
   },
+  "options_page": "main.html",
   "options_ui": {
     "page": "main.html",
     "open_in_tab": true
-  },
-  "options_page": "main.html"
+  }
 }

@@ -1,30 +1,30 @@
 {
   "manifest_version": 3,
   "name": "webrequest-tabs-create",
-  "version": "0.1.1",
-  "author": "carlosjeurissen",
   "description": "webrequest-tabs-create",
+  "author": "Carlos Jeurissen",
+  "version": "0.1.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar"
+  },
+  "options_page": "main.html",
+  "options_ui": {
+    "page": "main.html",
+    "open_in_tab": true
+  },
   "permissions": [
     "declarativeNetRequestWithHostAccess",
     "webRequest"
   ],
   "host_permissions": [
     "https://www.example.com/webrequest-tabs-create/*"
-  ],
-  "icons": {
-    "16": "icon.png",
-    "48": "icon.png"
-  },
-  "background": {
-    "service_worker": "background.js",
-    "scripts": [ "background.js" ]
-  },
-  "action": {
-    "default_area": "navbar"
-  },
-  "options_ui": {
-    "page": "main.html",
-    "open_in_tab": true
-  },
-  "options_page": "main.html"
+  ]
 }

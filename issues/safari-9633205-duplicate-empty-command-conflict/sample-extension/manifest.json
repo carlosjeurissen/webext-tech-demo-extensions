@@ -1,17 +1,18 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "9633205-apple-commands-issue",
   "description": "9633205-apple-commands-issue",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
-  "browser_action": {
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "action": {
     "default_area": "navbar",
     "default_popup": "popup.html"
   },
   "commands": {
-    "_execute_browser_action": {}
-  },
-  "icons": {
-    "16": "icon.png",
-    "48": "icon.png"
+    "_execute_action": {}
   }
 }

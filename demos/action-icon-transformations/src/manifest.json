@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "action-icon-transformations",
   "description": "action-icon-transformations",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
     "16": "unicolor-16.png",
@@ -13,12 +14,6 @@
     "scripts": ["background.js"],
     "service_worker": "background.js"
   },
-  "host_permissions": [
-    "https://www.example.com/"
-  ],
-  "permissions": [
-    "storage"
-  ],
   "action": {
     "default_area": "navbar",
     "default_icon": {
@@ -27,5 +22,11 @@
       "32": "unicolor-32.png",
       "38": "unicolor-38.png"
     }
-  }
+  },
+  "host_permissions": [
+    "https://www.example.com/"
+  ],
+  "permissions": [
+    "storage"
+  ]
 }

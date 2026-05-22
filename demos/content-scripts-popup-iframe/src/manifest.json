@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "content-scripts-popup-iframe",
   "description": "content-scripts-popup-iframe",
+  "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
     "16": "icon.png",
