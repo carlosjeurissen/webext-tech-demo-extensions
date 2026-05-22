@@ -17,5 +17,5 @@ https://developer.apple.com/forums/thread/774973
 WebKit patch:
 https://github.com/WebKit/WebKit/pull/43398
 
-Apple radar:
+Apple Radar:
 rdar://145489255

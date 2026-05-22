@@ -2,8 +2,8 @@
 
 WebKit and Orion do NOT modify network requests from fetch calls initiated from extension pages.
 
-WebKit bug:
-https://github.com/EFForg/SafariWebExtensionBugs/issues/18
+WebKit bug report:
+https://bugs.webkit.org/show_bug.cgi?id=315369
 
 Apple Radar:
 rdar://problem/177727901

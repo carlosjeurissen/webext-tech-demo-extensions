@@ -8,7 +8,7 @@ https://feedbackassistant.apple.com/feedback/9723963
 Apple Developer Forums post:
 https://developer.apple.com/forums/thread/693211
 
-Apple radar:
+Apple Radar:
 rdar://84214292
 
 ### Info

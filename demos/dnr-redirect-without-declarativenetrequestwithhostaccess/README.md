@@ -7,4 +7,5 @@ Chrome, Firefox and Orion redirect just fine.
 Safari does not redirect and needs the declarativeNetRequestWithHostAccess permission
 
 ### Links
-WebKit bug: https://bugs.webkit.org/show_bug.cgi?id=313727
+WebKit bug report:
+https://bugs.webkit.org/show_bug.cgi?id=313727

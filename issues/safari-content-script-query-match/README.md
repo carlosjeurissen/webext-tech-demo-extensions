@@ -2,7 +2,7 @@
 WebKit bug report:
 https://bugs.webkit.org/show_bug.cgi?id=273069
 
-Apple radar:
+Apple Radar:
 rdar://problem/128621567
 
 ### Info

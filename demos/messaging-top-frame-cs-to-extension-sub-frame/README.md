@@ -5,4 +5,7 @@ Receives message
 Does not receive message
 
 ### Safari
-No extension frame is loaded. See https://bugs.webkit.org/show_bug.cgi?id=246617
+No extension frame is loaded.
+
+WebKit bug report:
+https://bugs.webkit.org/show_bug.cgi?id=246617

@@ -8,7 +8,10 @@ Click action icon. This opens the extension page with an extension iframe. It th
 ### Conclusions
 
 #### Safari
-No cross-frame messaging supported at all. See https://bugs.webkit.org/show_bug.cgi?id=246620#c5
+No cross-frame messaging supported at all.
+
+WebKit bug report:
+https://bugs.webkit.org/show_bug.cgi?id=246620#c5
 
 #### Chrome
 Top frame can not respond to messages sent from the sub frame neither via `runtime.getMessage` nor via `tabs.getMessage`.

@@ -17,9 +17,10 @@ An extension which specifies a fallback document environment with `preferred_env
 The above syntax is supposed to use a generated document based on scripts if serviceWorker can't be loaded/is unavailable.
 
 ### Links
-WebKit bug:
+WebKit bug report:
 https://bugs.webkit.org/show_bug.cgi?id=314194
 
+Apple Radar:
 rdar://problem/176357962
 
 1password forum post:
