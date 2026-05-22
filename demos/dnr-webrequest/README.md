@@ -6,6 +6,7 @@ It also sets DNR rules and listens for webRequest.
 The modified version by DNR in chrome is reported in Firefox and Safari in both onBeforeSendHeaders and onSendHeaders.
 While in Chrome only reported on onSendHeaders.
 
-Due to numerous issues, this demo currently does not work on Orion.
+For Orion, this demo currently fails. this is tracked in:
+https://orionfeedback.org/d/13893-sub-frame-in-extension-pages-do-not-fire-onbeforesendheaders-and-onsendheaders
 
 See WECG issue: https://github.com/w3c/webextensions/issues/1004
