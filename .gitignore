@@ -9,3 +9,5 @@ node_modules
 # Xcode
 xcuserdata/
 xcshareddata/
+
+_metadata
