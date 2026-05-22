@@ -11,7 +11,7 @@ Chrome, Firefox and Orion all properly redirect to example.org.
 Tested on macOS 26.4.1 with Safari Version 26.4 (21624.1.16.11.4) and STP Release 242 (WebKit 21625.1.13.19.1).
 
 ### Links
-Webkit bug:
+WebKit bug:
 https://bugs.webkit.org/show_bug.cgi?id=313963
 
 Apple feedback assistant:

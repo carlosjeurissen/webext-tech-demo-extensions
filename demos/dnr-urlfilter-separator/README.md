@@ -20,10 +20,10 @@ https://orionfeedback.org/d/13709-dnr-urlfilter-with-separator-not-matching-end-
 Apple Feedback Assistant Report:
 https://feedbackassistant.apple.com/feedback/21161264
 
-Webkit issue:
+WebKit bug:
 https://bugs.webkit.org/show_bug.cgi?id=297838
 
-pullrequest:
+WebKit PR:
 https://github.com/WebKit/WebKit/pull/56662
 
 EFF safari bugs issue:

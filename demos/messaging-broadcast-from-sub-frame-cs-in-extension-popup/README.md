@@ -9,7 +9,7 @@ There is a content script for this subframe which tries to broadcasting an exten
 
 If the background page successfully receives the message, it will open a success page in a new tab.
 
-### Webkit bug 246620 - message not sent
+### WebKit bug 246620 - message not sent
 Because there is no tab, Safari fails sending the message with the error:
 `Tab not found`
 
@@ -25,7 +25,7 @@ https://developer.apple.com/forums/thread/690249
 Apple radar:
 rdar://83280648
 
-### Webkit bug 314550 - chrome.runtime.sendMessage misses lastError
+### WebKit bug 314550 - chrome.runtime.sendMessage misses lastError
 With this code:
 ```js
 chrome.runtime.sendMessage('test', () => {
@@ -40,7 +40,7 @@ chrome.runtime.sendMessage('test', () => {
 Safari does not define lastError, yet logs this to the console:
 Error: Unchecked `runtime.lastError`: Invalid call to `runtime.sendMessage()`. Tab not found.
 
-Webkit bug report:
+WebKit bug report:
 https://bugs.webkit.org/show_bug.cgi?id=314550
 
 Radar:

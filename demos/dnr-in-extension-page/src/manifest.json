@@ -1,15 +1,15 @@
 {
   "manifest_version": 3,
-  "name": "webrequest-tabs-create",
-  "version": "0.1.1",
+  "name": "dnr-in-extension-page",
+  "description": "dnr-in-extension-page",
+  "version": "0.0.1",
   "author": "carlosjeurissen",
-  "description": "webrequest-tabs-create",
   "permissions": [
     "declarativeNetRequestWithHostAccess",
     "webRequest"
   ],
   "host_permissions": [
-    "https://www.example.com/webrequest-tabs-create/*"
+    "https://httpbin.org/anything/dnr-in-extension-page/*"
   ],
   "icons": {
     "16": "icon.png",
@@ -26,5 +26,12 @@
     "page": "main.html",
     "open_in_tab": true
   },
-  "options_page": "main.html"
+  "options_page": "main.html",
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  }
 }

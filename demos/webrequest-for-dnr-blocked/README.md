@@ -11,7 +11,7 @@ STP Release 242 (WebKit 21625.1.13.19.1).
 Orion Version 1.0.6 (145), WebKit 624.1.7
 
 ### Links
-Webkit bug:
+WebKit bug:
 https://bugs.webkit.org/show_bug.cgi?id=313971
 
 Radar:

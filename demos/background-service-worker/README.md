@@ -7,7 +7,7 @@ Safari Version 26.4 (21624.1.16.11.4) and STP Release 242 (WebKit 21625.1.13.19.
 the extension service worker is not loading.
 
 ### Links
-Webkit bug:
+WebKit bug:
 https://bugs.webkit.org/show_bug.cgi?id=314194
 
 rdar://problem/176357962
