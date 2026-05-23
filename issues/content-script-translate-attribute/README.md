@@ -1,2 +1,2 @@
 Moved to:
-https://jeurissen.co/webext-demos/content-script-translate-attribute/
+https://jeurissen.co/webext-demos/content-script-translate-attribute
