@@ -1,4 +1,4 @@
-# webrequest-dnr-order
+# webrequest-dnr-onbeforesendheaders-order
 This demo creates an extension page which loads pages in an iframe.
 It also sets DNR rules and listens for webRequest.
 

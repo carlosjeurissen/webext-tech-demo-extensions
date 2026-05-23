@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "webrequest-dnr-order",
-  "description": "webrequest-dnr-order",
-  "homepage_url": "https://jeurissen.co/webext-demos/webrequest-dnr-order",
+  "name": "webrequest-dnr-onbeforesendheaders-order",
+  "description": "webrequest-dnr-onbeforesendheaders-order",
+  "homepage_url": "https://jeurissen.co/webext-demos/webrequest-dnr-onbeforesendheaders-order",
   "author": "cyfung1031, dotproto, Carlos Jeurissen",
   "version": "0.1.1",
   "icons": {
@@ -26,7 +26,7 @@
     "webRequest"
   ],
   "host_permissions": [
-    "https://httpbin.org/anything/webrequest-dnr-order/*"
+    "https://httpbin.org/anything/webrequest-dnr-onbeforesendheaders-order/*"
   ],
   "declarative_net_request": {
     "rule_resources": [{

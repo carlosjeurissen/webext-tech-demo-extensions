@@ -1,6 +1,6 @@
 'use strict';
 
-const URL_PREFIX = 'https://httpbin.org/anything/webrequest-dnr-order/';
+const URL_PREFIX = 'https://httpbin.org/anything/webrequest-dnr-onbeforesendheaders-order/';
 
 const HEADER_NAME = 'user-agent';
 

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "background-scripts-empty",
+  "description": "background-scripts-empty",
+  "homepage_url": "https://jeurissen.co/webext-demos/background-scripts-empty",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": [],
+    "service_worker": "service-worker.js",
+    "preferred_environment": ["document", "service_worker"]
+  }
+}

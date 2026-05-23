@@ -16,7 +16,7 @@ chrome.declarativeNetRequest.updateDynamicRules({
     },
     condition: {
       resourceTypes: ['main_frame', 'sub_frame'],
-      urlFilter: '||httpbin.org/anything/webrequest-dnr-order/dynamic*',
+      urlFilter: '||httpbin.org/anything/webrequest-dnr-onbeforesendheaders-order/dynamic*',
     },
   }],
 });
@@ -37,7 +37,7 @@ chrome.declarativeNetRequest.updateSessionRules({
     },
     condition: {
       resourceTypes: ['main_frame', 'sub_frame'],
-      urlFilter: '||httpbin.org/anything/webrequest-dnr-order/session*',
+      urlFilter: '||httpbin.org/anything/webrequest-dnr-onbeforesendheaders-order/session*',
     },
   }],
 });
@@ -60,8 +60,8 @@ chrome.runtime.onStartup.addListener(() => {});
 chrome.action.onClicked.addListener(() => {
   openDemo();
   chrome.permissions.request({
-    origins: ['https://httpbin.org/anything/webrequest-dnr-order/*'],
+    origins: ['https://httpbin.org/anything/webrequest-dnr-onbeforesendheaders-order/*'],
   });
 });
 
-fetch('https://httpbin.org/anything/webrequest-dnr-order/');
+fetch('https://httpbin.org/anything/webrequest-dnr-onbeforesendheaders-order/');

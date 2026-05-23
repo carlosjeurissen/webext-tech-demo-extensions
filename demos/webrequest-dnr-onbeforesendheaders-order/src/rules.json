@@ -13,7 +13,7 @@
     },
     "condition": {
       "resourceTypes": ["main_frame", "sub_frame"],
-      "urlFilter": "||httpbin.org/anything/webrequest-dnr-order/static*"
+      "urlFilter": "||httpbin.org/anything/webrequest-dnr-onbeforesendheaders-order/static*"
     }
   }
 ]
