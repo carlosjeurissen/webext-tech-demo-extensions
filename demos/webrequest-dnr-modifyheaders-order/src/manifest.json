@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "webrequest-dnr-order",
+  "description": "webrequest-dnr-order",
+  "homepage_url": "https://jeurissen.co/webext-demos/webrequest-dnr-order",
+  "author": "cyfung1031, dotproto, Carlos Jeurissen",
+  "version": "0.1.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar"
+  },
+  "options_page": "main.html",
+  "options_ui": {
+    "page": "main.html",
+    "open_in_tab": true
+  },
+  "permissions": [
+    "declarativeNetRequestWithHostAccess",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "https://httpbin.org/anything/webrequest-dnr-order/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  }
+}
