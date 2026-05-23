@@ -7,4 +7,4 @@ In Safari, normal pages receive messages from popup but not the other way around
 
 As for content scripts, the origin for content scripts for both main and isolated worlds is the page itself
 
-WECG issue: TBD
+W3C WECG issue: TBD

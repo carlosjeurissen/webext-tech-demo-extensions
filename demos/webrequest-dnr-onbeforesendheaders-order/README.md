@@ -9,4 +9,5 @@ While in Chrome only reported on onSendHeaders.
 For Orion, this demo currently fails. this is tracked in:
 https://orionfeedback.org/d/13893-sub-frame-in-extension-pages-do-not-fire-onbeforesendheaders-and-onsendheaders
 
-See WECG issue: https://github.com/w3c/webextensions/issues/1004
+W3C WECG issue:
+https://github.com/w3c/webextensions/issues/1004

@@ -2,9 +2,11 @@ Frames are complying differently towards the frame-src of CSP in different brows
 
 ### Issue links
 
-WECG issue: https://github.com/w3c/webextensions/issues/982
+W3C WECG issue:
+https://github.com/w3c/webextensions/issues/982
 
-Chrome issue: https://issues.chromium.org/issues/40205611
+Chromium issue:
+https://issues.chromium.org/issues/40205611
 
 ### Setup
 

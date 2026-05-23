@@ -1,5 +1,5 @@
 ### Links
-WECG issue:
+W3C WECG issue:
 https://github.com/w3c/webextensions/issues/994
 
 WebKit bug report:

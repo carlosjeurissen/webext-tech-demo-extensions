@@ -1,7 +1,7 @@
 ## Background
 This demo showcases a cartesian product of the different menu types of parents and children
 
-## WECG discussion
+W3C WECG issue:
 https://github.com/w3c/webextensions/issues/774
 
 ## Issues
@@ -13,5 +13,5 @@ https://forum.vivaldi.net/topic/118175/too-many-extension-context-menus-added-to
 #### Chromium
 ContextMenus API Submenus to menus with context action do not inherit this context
 
-Chromium bugreport:
+Chromium bug report:
 https://issues.chromium.org/issues/402806174
