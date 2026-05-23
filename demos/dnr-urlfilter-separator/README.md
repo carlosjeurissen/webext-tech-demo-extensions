@@ -23,8 +23,11 @@ https://feedbackassistant.apple.com/feedback/21161264
 WebKit bug report:
 https://bugs.webkit.org/show_bug.cgi?id=297838
 
+Apple Radar:
+rdar://problem/159049652
+
 WebKit PR:
 https://github.com/WebKit/WebKit/pull/56662
 
-EFF safari bugs issue:
+EFF SafariBugs issue:
 https://github.com/EFForg/SafariWebExtensionBugs/issues/12

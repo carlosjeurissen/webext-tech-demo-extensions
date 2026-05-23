@@ -9,5 +9,5 @@ https://bugs.webkit.org/show_bug.cgi?id=315367
 Apple Radar:
 rdar://problem/177727052
 
-EFF issue:
+EFF SafariBugs issue:
 https://github.com/EFForg/SafariWebExtensionBugs/issues/17

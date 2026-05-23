@@ -21,8 +21,11 @@ Just like Vivaldi, the listener is never fired inside action popups.
 WebKit bug report:
 https://bugs.webkit.org/show_bug.cgi?id=304827
 
+Apple Radar:
+rdar://problem/167403221
+
 When opened in a new tab, the listener does fire, but it fires with the wrong resource type (main_frame instead of sub_frame).
-See: https://bugs.webkit.org/show_bug.cgi?id=304828
+See: https://jeurissen.co/webext-demos/webrequest-type-sub-frame
 
 ### Orion
 Orion currently never fires the listener not even in a new tab.

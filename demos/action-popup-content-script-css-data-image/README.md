@@ -10,3 +10,6 @@ It seems somehow WebKit interprets the CSP as if it should block the css image.
 
 WebKit bug report:
 https://bugs.webkit.org/show_bug.cgi?id=311728
+
+Apple Radar:
+rdar://problem/174316860

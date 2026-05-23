@@ -17,5 +17,8 @@ https://bugs.webkit.org/show_bug.cgi?id=313963
 Apple feedback assistant:
 https://feedbackassistant.apple.com/feedback/16607998
 
-EFF issue:
+Apple Radar:
+rdar://problem/176176246
+
+EFF SafariBugs issue:
 https://github.com/EFForg/SafariWebExtensionBugs/issues/3

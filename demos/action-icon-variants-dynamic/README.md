@@ -7,3 +7,6 @@ WebKit fails to do this initially and seems to require some external trigger.
 
 WebKit bug report:
 https://bugs.webkit.org/show_bug.cgi?id=314729
+
+Apple Radar:
+rdar://problem/176978241

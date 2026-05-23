@@ -7,3 +7,6 @@ When calling chrome.scripting.registerContentScripts,
 
 WebKit bug report:
 https://bugs.webkit.org/show_bug.cgi?id=297903
+
+Apple Radar:
+rdar://problem/159193217

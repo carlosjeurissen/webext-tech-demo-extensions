@@ -16,5 +16,8 @@ Safari puts the popup icon in an unrecoverable state if set to an invalid popup 
 WebKit bug report:
 https://bugs.webkit.org/show_bug.cgi?id=303739
 
+Apple Radar:
+rdar://problem/166048992
+
 ### Edge on Android
 See: https://github.com/microsoft/MicrosoftEdge-Extensions/issues/300 and https://github.com/microsoft/MicrosoftEdge-Extensions/issues/563

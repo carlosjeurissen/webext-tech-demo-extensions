@@ -23,5 +23,5 @@ https://feedbackassistant.apple.com/feedback/16453819
 Orion issue:
 https://orionfeedback.org/d/13729-webrequest-events-not-fired-for-dnr-blocked-urls
 
-EFF issue:
+EFF SafariBugs issue:
 https://github.com/EFForg/SafariWebExtensionBugs/issues/4

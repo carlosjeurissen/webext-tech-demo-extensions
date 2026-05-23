@@ -13,6 +13,6 @@ https://bugs.webkit.org/show_bug.cgi?id=291956
 Apple Radar:
 rdar://problem/149855718
 
-EFForg SafariWebExtensionBugs issue:
+EFF SafariBugs issue:
 https://github.com/EFForg/SafariWebExtensionBugs/issues/11
 
