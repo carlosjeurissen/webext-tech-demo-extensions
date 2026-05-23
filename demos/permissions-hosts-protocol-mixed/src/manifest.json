@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "permissions-hosts-protocol-mixed",
   "description": "permissions-hosts-protocol-mixed",
+  "homepage_url": "https://jeurissen.co/webext-demos/permissions-hosts-protocol-mixed",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

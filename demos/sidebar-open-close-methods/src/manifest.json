@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "sidebar-open-close-methods",
   "description": "sidebar-open-close-methods",
+  "homepage_url": "https://jeurissen.co/webext-demos/sidebar-open-close-methods",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

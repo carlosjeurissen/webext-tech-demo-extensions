@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "externally-connectable-matches",
   "description": "externally-connectable-matches",
+  "homepage_url": "https://jeurissen.co/webext-demos/externally-connectable-matches",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

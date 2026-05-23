@@ -1,7 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "tabs-activate-inactive-tab",
-  "description": "tabs-activate-inactive-tab",
+  "name": "action-popup-active-inactive-tab",
+  "description": "action-popup-active-inactive-tab",
+  "homepage_url": "https://jeurissen.co/webext-demos/action-popup-active-inactive-tab",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

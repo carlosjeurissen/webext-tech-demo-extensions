@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "i18n-placeholders",
   "description": "i18n-placeholders",
+  "homepage_url": "https://jeurissen.co/webext-demos/i18n-placeholders",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "action-icon-transformations",
   "description": "action-icon-transformations",
+  "homepage_url": "https://jeurissen.co/webext-demos/action-icon-transformations",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

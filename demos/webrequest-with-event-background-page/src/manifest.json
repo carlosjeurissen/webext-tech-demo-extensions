@@ -2,6 +2,7 @@
   "manifest_version": 2,
   "name": "webrequest-with-event-background-page",
   "description": "webrequest-with-event-background-page",
+  "homepage_url": "https://jeurissen.co/webext-demos/webrequest-with-event-background-page",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

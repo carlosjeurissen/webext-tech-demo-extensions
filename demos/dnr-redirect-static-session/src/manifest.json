@@ -1,7 +1,8 @@
 {
   "manifest_version": 3,
   "name": "dnr-redirect-static-session",
-  "description": "Opens example.nl which should redirect to example.com, yet it incorrectly redirects to example.org on Safari",
+  "description": "dnr-redirect-static-session",
+  "homepage_url": "https://jeurissen.co/webext-demos/dnr-redirect-static-session",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

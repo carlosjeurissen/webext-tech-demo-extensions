@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "background-service-worker",
   "description": "background-service-worker",
+  "homepage_url": "https://jeurissen.co/webext-demos/background-service-worker",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

@@ -1,7 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "icon-variants-action",
-  "description": "icon-variants-action",
+  "name": "icon-sizes",
+  "description": "icon-sizes",
+  "homepage_url": "https://jeurissen.co/webext-demos/icon-sizes",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "background": {

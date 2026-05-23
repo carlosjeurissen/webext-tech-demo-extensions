@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "context-menus-visibility-change",
   "description": "context-menus-visibility-change",
+  "homepage_url": "https://jeurissen.co/webext-demos/context-menus-visibility-change",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

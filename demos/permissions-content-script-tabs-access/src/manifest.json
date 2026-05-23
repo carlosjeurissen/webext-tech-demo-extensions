@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "permissions-content-script-tabs-access",
   "description": "permissions-content-script-tabs-access",
+  "homepage_url": "https://jeurissen.co/webext-demos/permissions-content-script-tabs-access",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "background-lifetime-events",
   "description": "background-lifetime-events",
+  "homepage_url": "https://jeurissen.co/webext-demos/background-lifetime-events",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

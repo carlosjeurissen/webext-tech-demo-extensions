@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "messaging-sub-frame-cs-to-extension-top-frame",
   "description": "messaging-sub-frame-cs-to-extension-top-frame",
+  "homepage_url": "https://jeurissen.co/webext-demos/messaging-sub-frame-cs-to-extension-top-frame",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

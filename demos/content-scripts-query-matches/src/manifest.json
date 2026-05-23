@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "content-scripts-query-matches",
   "description": "content-scripts-query-matches",
+  "homepage_url": "https://jeurissen.co/webext-demos/content-scripts-query-matches",
   "author": "Carlos Jeurissen",
   "version": "0.0.2",
   "icons": {

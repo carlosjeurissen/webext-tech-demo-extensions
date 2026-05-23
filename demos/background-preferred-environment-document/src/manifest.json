@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "background-preferred-environment-document",
   "description": "background-preferred-environment-document",
+  "homepage_url": "https://jeurissen.co/webext-demos/background-preferred-environment-document",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

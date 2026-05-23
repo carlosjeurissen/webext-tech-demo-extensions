@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "messaging-broadcast-from-sub-frame-cs-in-extension-popup",
   "description": "messaging-broadcast-from-sub-frame-cs-in-extension-popup",
+  "homepage_url": "https://jeurissen.co/webext-demos/messaging-broadcast-from-sub-frame-cs-in-extension-popup",
   "author": "Carlos Jeurissen",
   "version": "0.0.2",
   "icons": {

@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "context-menus-menu-types-product",
   "description": "context-menus-menu-types-product",
+  "homepage_url": "https://jeurissen.co/webext-demos/context-menus-menu-types-product",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

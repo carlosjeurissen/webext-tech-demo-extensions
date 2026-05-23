@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "webrequest-tabs-create",
   "description": "webrequest-tabs-create",
+  "homepage_url": "https://jeurissen.co/webext-demos/webrequest-tabs-create",
   "author": "Carlos Jeurissen",
   "version": "0.1.1",
   "icons": {

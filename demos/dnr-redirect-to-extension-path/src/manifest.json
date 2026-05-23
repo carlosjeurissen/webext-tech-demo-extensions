@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "dnr-redirect-to-extension-path",
   "description": "dnr-redirect-to-extension-path",
+  "homepage_url": "https://jeurissen.co/webext-demos/dnr-redirect-to-extension-path",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

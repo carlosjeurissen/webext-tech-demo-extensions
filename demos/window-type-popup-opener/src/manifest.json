@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "window-type-popup-opener",
   "description": "window-type-popup-opener",
+  "homepage_url": "https://jeurissen.co/webext-demos/window-type-popup-opener",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "dnr-allowallrequests-redirect-priority",
   "description": "dnr-allowallrequests-redirect-priority",
+  "homepage_url": "https://jeurissen.co/webext-demos/dnr-allowallrequests-redirect-priority",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

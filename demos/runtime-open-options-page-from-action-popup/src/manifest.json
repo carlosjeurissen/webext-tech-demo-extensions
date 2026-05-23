@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "runtime-open-options-page-from-action-popup",
   "description": "runtime-open-options-page-from-action-popup",
+  "homepage_url": "https://jeurissen.co/webext-demos/runtime-open-options-page-from-action-popup",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "messaging-extension-cross-frame-messaging-with-responses",
   "description": "messaging-extension-cross-frame-messaging-with-responses",
+  "homepage_url": "https://jeurissen.co/webext-demos/messaging-extension-cross-frame-messaging-with-responses",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "action-popup-content-script-css-data-image",
   "description": "action-popup-content-script-css-data-image",
+  "homepage_url": "https://jeurissen.co/webext-demos/action-popup-content-script-css-data-image",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

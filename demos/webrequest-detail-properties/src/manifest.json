@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "webrequest-detail-properties",
   "description": "webrequest-detail-properties",
+  "homepage_url": "https://jeurissen.co/webext-demos/webrequest-detail-properties",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

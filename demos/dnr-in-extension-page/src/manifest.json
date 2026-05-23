@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "dnr-in-extension-page",
   "description": "dnr-in-extension-page",
+  "homepage_url": "https://jeurissen.co/webext-demos/dnr-in-extension-page",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

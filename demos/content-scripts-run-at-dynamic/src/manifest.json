@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "content-scripts-run-at-dynamic",
   "description": "content-scripts-run-at-dynamic",
+  "homepage_url": "https://jeurissen.co/webext-demos/content-scripts-run-at-dynamic",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "content-script-js-injected-css-font-loading",
   "description": "content-script-js-injected-css-font-loading",
+  "homepage_url": "https://jeurissen.co/webext-demos/content-script-js-injected-css-font-loading",
   "author": "Jeff Johnson adapted by Carlos Jeurissen",
   "version": "0.0.2",
   "icons": {

@@ -1,7 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "permissions-active-tab",
-  "description": "permissions-active-tab",
+  "name": "permissions-active-tab-host-access",
+  "description": "permissions-active-tab-host-access",
+  "homepage_url": "https://jeurissen.co/webext-demos/permissions-active-tab-host-access",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

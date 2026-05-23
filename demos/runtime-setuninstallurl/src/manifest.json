@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "runtime-setuninstallurl",
   "description": "runtime-setuninstallurl",
+  "homepage_url": "https://jeurissen.co/webext-demos/runtime-setuninstallurl",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

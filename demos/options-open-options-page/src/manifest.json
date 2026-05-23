@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "options-open-options-page",
   "description": "options-open-options-page",
+  "homepage_url": "https://jeurissen.co/webext-demos/options-open-options-page",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

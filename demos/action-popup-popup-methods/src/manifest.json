@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "action-popup-popup-methods",
   "description": "action-popup-popup-methods",
+  "homepage_url": "https://jeurissen.co/webext-demos/action-popup-popup-methods",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

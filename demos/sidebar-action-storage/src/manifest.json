@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "sidebar-action-storage",
   "description": "sidebar-action-storage",
+  "homepage_url": "https://jeurissen.co/webext-demos/sidebar-action-storage",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {

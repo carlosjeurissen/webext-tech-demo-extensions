@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "dnr-urlfilter-separator",
   "description": "dnr-urlfilter-separator",
+  "homepage_url": "https://jeurissen.co/webext-demos/dnr-urlfilter-separator",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
