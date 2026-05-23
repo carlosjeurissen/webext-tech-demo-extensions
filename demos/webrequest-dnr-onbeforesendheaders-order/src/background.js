@@ -1,5 +1,11 @@
 'use strict';
 
+const URL_PREFIX = 'https://httpbin.org/anything/webrequest-dnr-onbeforesendheaders-order/';
+
+const HEADER_NAME = 'user-agent';
+
+const RESOURCE_TYPES = ['sub_frame'];
+
 chrome.declarativeNetRequest.updateDynamicRules({
   removeRuleIds: [2],
   addRules: [{
@@ -8,14 +14,14 @@ chrome.declarativeNetRequest.updateDynamicRules({
       type: 'modifyHeaders',
       requestHeaders: [
         {
-          header: 'user-agent',
+          header: HEADER_NAME,
           operation: 'set',
           value: 'dynamic',
         },
       ],
     },
     condition: {
-      resourceTypes: ['main_frame', 'sub_frame'],
+      resourceTypes: RESOURCE_TYPES,
       urlFilter: '||httpbin.org/anything/webrequest-dnr-onbeforesendheaders-order/dynamic*',
     },
   }],
@@ -29,14 +35,14 @@ chrome.declarativeNetRequest.updateSessionRules({
       type: 'modifyHeaders',
       requestHeaders: [
         {
-          header: 'user-agent',
+          header: HEADER_NAME,
           operation: 'set',
           value: 'session',
         },
       ],
     },
     condition: {
-      resourceTypes: ['main_frame', 'sub_frame'],
+      resourceTypes: RESOURCE_TYPES,
       urlFilter: '||httpbin.org/anything/webrequest-dnr-onbeforesendheaders-order/session*',
     },
   }],
@@ -58,10 +64,10 @@ openDemo();
 chrome.runtime.onInstalled.addListener(() => {});
 chrome.runtime.onStartup.addListener(() => {});
 chrome.action.onClicked.addListener(() => {
-  openDemo();
   chrome.permissions.request({
-    origins: ['https://httpbin.org/anything/webrequest-dnr-onbeforesendheaders-order/*'],
-  });
+    origins: [URL_PREFIX + '*'],
+  }, openDemo);
 });
 
-fetch('https://httpbin.org/anything/webrequest-dnr-onbeforesendheaders-order/');
+// trigger permission prompt in Safari
+fetch(URL_PREFIX);
