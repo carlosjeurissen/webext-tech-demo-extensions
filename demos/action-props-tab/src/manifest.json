@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "action-props-tab",
+  "description": "action-props-tab",
+  "homepage_url": "https://jeurissen.co/webext-demos/action-props-tab",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar"
+  }
+}
