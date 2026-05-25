@@ -9,3 +9,6 @@ Orion persists the tab-specific properties even when the pages navigate
 
 Orion bug report:
 https://orionfeedback.org/d/13912-tab-specific-action-properties-not-dropped-on-navigation
+
+Documentation:
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/setIcon#tabid

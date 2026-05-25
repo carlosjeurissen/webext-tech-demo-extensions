@@ -15,8 +15,8 @@ openDemo();
 
 chrome.runtime.onInstalled.addListener(() => {});
 chrome.runtime.onStartup.addListener(() => {});
-chrome.action.onClicked.addListener(openDemo);
+chrome.browserAction.onClicked.addListener(openDemo);
 
 setTimeout(() => {
-  chrome.action.openPopup();
+  chrome.browserAction.openPopup();
 }, 1e3);

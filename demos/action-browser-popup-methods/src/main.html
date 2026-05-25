@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>action-browser-popup-methods</title>
+  <style>button{display: block; margin: 8px;}</style>
+</head>
+
+<body>
+  <fieldset>
+    <legend>Action popup</legend>
+    <button id="ref-popup-restore">Restore popup: browserAction.setPopup({ popup: null });</button>
+    <button id="ref-popup-remove">Remove popup: browserAction.setPopup({ popup: "" });</button>
+    <button id="ref-popup-set">Set popup: browserAction.setPopup({ popup: "popup.html" });</button>
+    <button id="ref-popup-set-invalid">Set invalid popup: browserAction.setPopup({ popup: "invalid.html" });</button>
+    <button id="ref-popup-open">Open popup: browserAction.openPopup();</button>
+  </fieldset>
+  <script src="/main.js"></script>
+</body>
+
+</html>
