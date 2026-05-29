@@ -11,3 +11,6 @@ https://orionfeedback.org/d/13893-sub-frame-in-extension-pages-do-not-fire-onbef
 
 W3C WECG issue:
 https://github.com/w3c/webextensions/issues/1004
+
+Firefox bug report:
+https://bugzilla.mozilla.org/show_bug.cgi?id=2040251

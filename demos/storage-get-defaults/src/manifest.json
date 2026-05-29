@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "action-badge",
-  "description": "action-badge",
-  "homepage_url": "https://jeurissen.co/webext-demos/action-badge",
+  "name": "storage-get-defaults",
+  "description": "storage-get-defaults",
+  "homepage_url": "https://jeurissen.co/webext-demos/storage-get-defaults",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
@@ -16,5 +16,5 @@
   "action": {
     "default_area": "navbar"
   },
-  "permissions": ["activeTab"]
+  "permissions": ["activeTab", "storage"]
 }

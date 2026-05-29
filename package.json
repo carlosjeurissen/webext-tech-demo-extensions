@@ -9,9 +9,9 @@
   },
   "devDependencies": {
     "eslint": "^9.39.4",
-    "eslint-config-ccb": "^0.38.0",
-    "stylelint": "^17.4.0",
-    "stylelint-config-ccb": "^3.30.1"
+    "eslint-config-ccb": "^0.38.3",
+    "stylelint": "^17.12.0",
+    "stylelint-config-ccb": "^3.31.5"
   },
   "browserslist": [
     "Firefox ESR",

@@ -6,3 +6,9 @@ chrome.action.onClicked.addListener(() => {});
 chrome.action.setBadgeText({
   text: '8🧩',
 });
+chrome.action.setBadgeBackgroundColor({
+  color: 'green',
+});
+chrome.action.setBadgeTextColor({
+  color: 'green',
+});
