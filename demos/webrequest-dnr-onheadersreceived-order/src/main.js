@@ -1,8 +1,8 @@
 'use strict';
 
-const URL_PREFIX = 'https://httpbin.org/anything/webrequest-dnr-onbeforesendheaders-order/';
+const URL_PREFIX = 'https://httpbin.org/anything/webrequest-dnr-onheadersreceived-order/';
 
-const HEADER_NAME = 'user-agent';
+const HEADER_NAME = 'etag';
 
 const DNR_TYPES = ['static', 'dynamic', 'session', 'unmatched'];
 
@@ -23,7 +23,7 @@ function logToPage (message) {
 function registerWebRequestListener (eventName) {
   chrome.webRequest[eventName].addListener((details) => {
     const type = details.url.replace(URL_PREFIX, '').split('?')[0];
-    const headerData = details.requestHeaders.find((header) => {
+    const headerData = details.responseHeaders.find((header) => {
       return header.name.toLowerCase() === HEADER_NAME;
     });
     const headerValue = headerData && headerData.value;
@@ -32,11 +32,11 @@ function registerWebRequestListener (eventName) {
     logToPage(`${eventName} for ${type} is ${hasMatch ? 'modified' : 'NOT modified'}, value: ${headerValue}`);
   }, {
     urls: ['<all_urls>'],
-  }, ['requestHeaders']);
+  }, ['responseHeaders']);
 }
 
-registerWebRequestListener('onBeforeSendHeaders');
-registerWebRequestListener('onSendHeaders');
+registerWebRequestListener('onHeadersReceived');
+registerWebRequestListener('onResponseStarted');
 
 function initRequests () {
   DNR_TYPES.forEach((type) => {

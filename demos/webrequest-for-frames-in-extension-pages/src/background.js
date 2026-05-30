@@ -1,0 +1,27 @@
+'use strict';
+
+const URL_PREFIX = 'https://httpbin.org/anything/webrequest-for-frames-in-extension-pages/';
+
+function openDemo () {
+  try {
+    chrome.runtime.openOptionsPage();
+  } catch (e) {
+    console.error(e);
+    chrome.tabs.create({
+      url: chrome.runtime.getURL('main.html'),
+    });
+  }
+}
+
+openDemo();
+
+chrome.runtime.onInstalled.addListener(() => {});
+chrome.runtime.onStartup.addListener(() => {});
+chrome.action.onClicked.addListener(() => {
+  chrome.permissions.request({
+    origins: [URL_PREFIX + '*'],
+  }, openDemo);
+});
+
+// trigger permission prompt in Safari
+fetch(URL_PREFIX);
