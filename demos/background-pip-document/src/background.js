@@ -12,7 +12,7 @@ function loadPipWindow (newWindow) {
   buttonEl.textContent = 'Some button';
   paragraphEl.appendChild(buttonEl);
 
-  pipWindow.document.appendChild(paragraphEl);
+  pipWindow.document.body.appendChild(paragraphEl);
 }
 
 function togglePiP () {
