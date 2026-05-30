@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "action-props-global-split",
+  "description": "action-props-global-split",
+  "homepage_url": "https://jeurissen.co/webext-demos/action-props-global-split",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar"
+  },
+  "incognito": "split"
+}
