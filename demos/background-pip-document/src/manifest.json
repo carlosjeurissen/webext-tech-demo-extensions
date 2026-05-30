@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "background-pip-document",
+  "description": "background-pip-document",
+  "homepage_url": "https://jeurissen.co/webext-demos/background-pip-document",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_area": "navbar"
+  },
+  "permissions": [
+    "offscreen"
+  ]
+}
