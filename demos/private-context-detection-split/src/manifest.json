@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "private-context-detection",
-  "description": "private-context-detection",
-  "homepage_url": "https://jeurissen.co/webext-demos/private-context-detection",
+  "name": "private-context-detection-split",
+  "description": "private-context-detection-split",
+  "homepage_url": "https://jeurissen.co/webext-demos/private-context-detection-split",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
@@ -14,7 +14,9 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_area": "navbar"
+    "default_area": "navbar",
+    "default_popup": "main.html"
   },
+  "permissions": ["activeTab"],
   "incognito": "split"
 }

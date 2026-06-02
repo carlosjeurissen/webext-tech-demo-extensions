@@ -1,7 +1,7 @@
 'use strict';
 
 function getContextType () {
-  return new Promise(function (resolve, reject) {
+  return new Promise((resolve, reject) => {
     chrome.windows.getCurrent((result) => {
       const inPrivate = result && result.incognito;
       if (typeof inPrivate === 'boolean') {

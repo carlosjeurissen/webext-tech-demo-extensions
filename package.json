@@ -28,7 +28,7 @@
   ],
   "scripts": {
     "lint-css-fix": "stylelint --quiet-deprecation-warnings --fix=lax \"demos/**/*.{css,scss,sass}\"  \"issues/**/*.{css,scss,sass}\"",
-    "lint-js-fix": "eslint --fix",
+    "lint-js-fix": "eslint --fix && eslint /labs --fix",
     "lint-fix": "pnpm run lint-css-fix; pnpm run lint-js-fix"
   },
   "stylelint": {

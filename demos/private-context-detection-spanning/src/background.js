@@ -15,6 +15,5 @@ function openDemo () {
 
 chrome.runtime.onInstalled.addListener(() => {});
 chrome.runtime.onStartup.addListener(() => {});
-chrome.action.onClicked.addListener(openDemo);
 
 openDemo();

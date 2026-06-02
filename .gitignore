@@ -2,12 +2,12 @@
 npm-debug.log
 node_modules
 
-# Distribution
-/dist_packed
-/dist
-
 # Xcode
 xcuserdata/
 xcshareddata/
 
+# DNR metadata
 _metadata
+
+# labs
+/labs

@@ -3,6 +3,7 @@
 let pipWindow = null;
 
 function loadPipWindow (newWindow) {
+  console.log('Loading PiP dom elements');
   pipWindow = newWindow;
 
   const paragraphEl = document.createElement('p');
@@ -13,18 +14,22 @@ function loadPipWindow (newWindow) {
   paragraphEl.appendChild(buttonEl);
 
   pipWindow.document.body.appendChild(paragraphEl);
+  console.log('Finalised PiP dom elements');
 }
 
 function togglePiP () {
-  return
   if (pipWindow) {
+    console.log('Closing PiP');
     pipWindow.close();
     pipWindow = null;
   } else {
+    console.log('Opening PiP');
     window.documentPictureInPicture.requestWindow({
       width: 400,
       height: 300,
-    }).then(loadPipWindow);
+    }).then(loadPipWindow, (e) => {
+      console.error('Failed opening PiP', e);
+    });
   }
 }
 
