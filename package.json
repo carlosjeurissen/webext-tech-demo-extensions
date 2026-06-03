@@ -11,7 +11,7 @@
     "eslint": "^9.39.4",
     "eslint-config-ccb": "^0.38.3",
     "stylelint": "^17.12.0",
-    "stylelint-config-ccb": "^3.31.5"
+    "stylelint-config-ccb": "^3.32.0"
   },
   "browserslist": [
     "Firefox ESR",
