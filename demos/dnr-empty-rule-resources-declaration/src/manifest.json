@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "dnr-empty-rule-resources-declaration",
+  "description": "dnr-empty-rule-resources-declaration",
+  "homepage_url": "https://jeurissen.co/webext-demos/dnr-empty-rule-resources-declaration",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "declarative_net_request": {
+    "rule_resources": []
+  },
+  "permissions": ["declarativeNetRequest"]
+}
