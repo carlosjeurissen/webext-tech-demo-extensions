@@ -11,12 +11,8 @@
   },
 
   "_l10n_resources": [],
-  "_options_ui": {},
   "_dictionaries": {},
   "_experiment_apis": {},
-  "_declarative_net_request": {
-    "rule_resources": []
-  },
   "_chromeos_system_extension": {},
   "_theme": {},
   "_export": {},
@@ -49,6 +45,16 @@
   "oauth2": {
     "scopes": [],
     "client_id": "a"
+  },
+  "options_ui": {
+    "page": ""
+  },
+  "declarative_net_request": {
+    "rule_resources": [{
+      "enabled": false,
+      "id": "manifest-keys",
+      "path": "manifest.json"
+    }]
   },
   "replacement_web_app": "https://jeurissen.co/webext-demos/manifest-keys",
 

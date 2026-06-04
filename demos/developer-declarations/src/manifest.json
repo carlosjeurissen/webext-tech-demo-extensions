@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "developer-declarations",
+  "description": "developer-declarations",
+  "homepage_url": "https://jeurissen.co/webext-demos/developer-declarations#from_homepage_url",
+  "author": "(from author) Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "developer": {
+    "author": "(from developer) Carlos Jeurissen",
+    "url": "https://jeurissen.co/webext-demos/developer-declarations#from_developer_url"
+  }
+}
