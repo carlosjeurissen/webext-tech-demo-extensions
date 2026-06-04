@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "experiment-apis-empty-declaration",
+  "description": "experiment-apis-empty-declaration",
+  "homepage_url": "https://jeurissen.co/webext-demos/experiment-apis-empty-declaration",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "experiment_apis": {}
+}

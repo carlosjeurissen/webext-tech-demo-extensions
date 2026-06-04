@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "options-ui-without-page",
+  "description": "options-ui-without-page",
+  "homepage_url": "https://jeurissen.co/webext-demos/options-ui-without-page",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "options_page": "main.html",
+  "options_ui": {
+    "open_in_new": false
+  }
+}

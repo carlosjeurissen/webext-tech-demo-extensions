@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "i18n-default-locale-missing",
+  "description": "i18n-default-locale-missing",
+  "homepage_url": "https://jeurissen.co/webext-demos/i18n-default-locale-missing",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  }
+}
