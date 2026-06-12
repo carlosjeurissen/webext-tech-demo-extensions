@@ -4,7 +4,7 @@
   "description": "private-context-detection-spanning",
   "homepage_url": "https://jeurissen.co/webext-demos/private-context-detection-spanning",
   "author": "Carlos Jeurissen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icons": {
     "16": "icon.png",
     "48": "icon.png"
@@ -15,8 +15,19 @@
   },
   "action": {
     "default_area": "navbar",
-    "default_popup": "main.html"
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
   },
   "permissions": ["activeTab"],
+  "host_permissions": ["https://www.example.com/*"],
+  "content_scripts": [{
+    "matches": ["https://www.example.com/webext-demos/private-context-detection-spanning"],
+    "js": ["main.js"],
+    "run_at": "document_idle"
+  }],
   "incognito": "spanning"
 }
