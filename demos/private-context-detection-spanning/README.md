@@ -3,11 +3,11 @@ This demo showcases the extension.inIncognitoContext reported by the browser in 
 
 ### Inconsistencies
 specifically in `incognito: spanning`
-Chrome, Orion and Safari always returns false
+Chrome, Orion and Safari always returns false for extension pages
 While Firefox returns true if the specific extension context is in a private window
 
 W3C WECG issue:
-TBD
+https://github.com/w3c/webextensions/issues/1026
 
 ### Docs
 mdn:

@@ -9,8 +9,8 @@ Demo with incognito: split
 https://jeurissen.co/webext-demos/private-context-detection-split
 
 ### Issues
-Chrome always returns false in `incognito: spanning` mode.
-Orion and Safari always return true independent of incognito mode.
+W3C WECG issue:
+https://github.com/w3c/webextensions/issues/1026
 
 WebKit bug report:
 https://bugs.webkit.org/show_bug.cgi?id=315916
@@ -20,9 +20,6 @@ rdar://problem/178327590
 
 Orion issue:
 https://orionfeedback.org/d/13941-extensioninincognitocontext-incorrectly-reports-false
-
-W3C WECG issue:
-TBD
 
 ### Docs
 mdn:

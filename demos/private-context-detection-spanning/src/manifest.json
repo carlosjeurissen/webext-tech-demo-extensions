@@ -29,5 +29,9 @@
     "js": ["main.js"],
     "run_at": "document_idle"
   }],
+  "web_accessible_resources": [{
+    "matches": ["https://www.example.com/*"],
+    "resources": ["embed.html"]
+  }],
   "incognito": "spanning"
 }
