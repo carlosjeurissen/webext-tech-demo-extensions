@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "webrequest-blocking-onbeforerequest",
+  "description": "webrequest-blocking-onbeforerequest",
+  "homepage_url": "https://jeurissen.co/webext-demos/webrequest-blocking-onbeforerequest",
+  "author": "Carlos Jeurissen",
+  "version": "0.1.0",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "host_permissions": [
+    "https://www.example.com/webext-demos/webrequest-blocking-onbeforerequest/*"
+  ]
+}
