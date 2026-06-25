@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "permissions-optional-duplicates",
+  "description": "permissions-optional-duplicates",
+  "homepage_url": "https://jeurissen.co/webext-demos/permissions-optional-duplicates",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar"
+  },
+  "permissions": [
+    "webNavigation",
+    "tabs"
+  ],
+  "optional_permissions": [
+    "webNavigation",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "https://www.example.com/*",
+    "https://www.example.org/*"
+  ],
+  "optional_host_permissions": [
+    "https://www.example.com/*",
+    "https://www.example.net/*"
+  ]
+}

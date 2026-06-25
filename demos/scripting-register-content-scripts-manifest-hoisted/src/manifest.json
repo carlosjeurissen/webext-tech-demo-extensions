@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "scripting-register-content-scripts-manifest-hoisted",
+  "description": "scripting-register-content-scripts-manifest-hoisted",
+  "homepage_url": "https://jeurissen.co/webext-demos/scripting-register-content-scripts-manifest-hoisted",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar"
+  },
+  "permissions": ["scripting"],
+  "content_scripts": [{
+    "css": ["content-script.css"],
+    "matches": ["https://www.example.com/*"]
+  }],
+  "optional_host_permissions": ["https://www.example.com/*"]
+}
