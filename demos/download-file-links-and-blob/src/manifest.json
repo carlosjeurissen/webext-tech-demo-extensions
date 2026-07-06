@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "download-file-links-and-blob",
+  "description": "download-file-links-and-blob",
+  "homepage_url": "https://jeurissen.co/webext-demos/download-file-links-and-blob",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar",
+    "default_popup": "options.html"
+  },
+  "options_page": "options.html",
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "permissions": ["sidePanel"]
+}
