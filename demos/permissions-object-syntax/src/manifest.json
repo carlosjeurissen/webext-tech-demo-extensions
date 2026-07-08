@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "permissions-object-syntax",
+  "description": "permissions-object-syntax",
+  "homepage_url": "https://jeurissen.co/webext-demos/permissions-object-syntax",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar"
+  },
+  "permissions": [
+    { "permission": "tabCapture", "behavior": "deferrable", "justification": "Used by the new screenshots feature to do X" },
+    "tabs"
+  ],
+  "optional_permissions": [
+    { "permission": "tabCapture", "behavior": "deferrable", "justification": "Used by the new screenshots feature to do X" },
+    "side_panel"
+  ],
+  "host_permissions": [
+    { "permission": "https://www.example.com/*", "behavior": "deferrable", "justification": "Used by the new screenshots feature to do X" },
+    "https://www.example.org/*"
+  ],
+  "optional_host_permissions": [
+    { "permission": "https://www.example.com/*", "behavior": "deferrable", "justification": "Used by the new screenshots feature to do X" },
+    "https://www.example.net/*"
+  ]
+}
