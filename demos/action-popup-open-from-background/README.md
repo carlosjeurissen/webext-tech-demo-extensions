@@ -10,5 +10,5 @@ When calling chrome.action.openPopup()
 
 Calling with windowId gives the same error. Even tho the browser has a toolbar.
 
-See:
-And: VB-TBD
+See: https://forum.vivaldi.net/topic/120020/action.openpopup-does-not-work/2
+And: VB-120122
