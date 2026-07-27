@@ -4,8 +4,8 @@ function beautifyJson (json) {
   return JSON.stringify(json, null, 2);
 }
 
-const urlParams = new URLSearchParams(window.location.search);
-const tabInfo = JSON.parse(urlParams.get('tab'));
+const searchParams = new URLSearchParams(window.location.search);
+const tabInfo = JSON.parse(searchParams.get('tab'));
 document.getElementById('ref-tab-id-url').textContent = `panel tabId: ${tabInfo.id}`;
 document.getElementById('ref-tab-url').textContent = `panel tabInfo: ${beautifyJson(tabInfo)}`;
 

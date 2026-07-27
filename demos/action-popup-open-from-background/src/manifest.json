@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "action-popup-open-from-background",
+  "description": "action-popup-open-from-background",
+  "homepage_url": "https://jeurissen.co/webext-demos/action-popup-open-from-background",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar",
+    "default_popup": "popup.html"
+  }
+}

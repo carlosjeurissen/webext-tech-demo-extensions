@@ -30,3 +30,6 @@ Forum post:
 https://forum.vivaldi.net/topic/114346/sidepanel.getlayout-incorrectly-always-returns-side-right
 
 Feedback key: VB-123454
+
+Microsoft Edge on Android crashes when calling this method:
+https://github.com/microsoft/MicrosoftEdge-Extensions/issues/661
