@@ -4,7 +4,7 @@
   "description": "sidebar-open-close-methods",
   "homepage_url": "https://jeurissen.co/webext-demos/sidebar-open-close-methods",
   "author": "Carlos Jeurissen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icons": {
     "16": "icon.png",
     "48": "icon.png"
@@ -15,12 +15,15 @@
   },
   "action": {
     "default_area": "navbar",
-    "default_popup": "options.html"
+    "default_popup": "main.html"
   },
-  "options_page": "options.html",
+  "options_page": "main.html",
   "options_ui": {
-    "page": "options.html",
+    "page": "main.html",
     "open_in_tab": true
   },
-  "permissions": ["sidePanel"]
+  "permissions": ["sidePanel"],
+  "side_panel": {
+    "default_panel": "main.html"
+  }
 }

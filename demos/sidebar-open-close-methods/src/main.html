@@ -9,6 +9,13 @@
 </head>
 
 <body>
+  <output id="ref-loadtime"></output>
+  <fieldset>
+    <legend>sidebarAction</legend>
+    <button id="ref-sidebar-open">Open sidebar: sidebarAction.open();</button>
+    <button id="ref-sidebar-close">Close sidebar: sidebarAction.close();</button>
+    <button id="ref-sidebar-toggle">Toggle sidebar: sidebarAction.toggle();</button>
+  </fieldset>
   <fieldset>
     <legend>sidePanel</legend>
     <button id="ref-sidepanel-open">Open sidepanel: sidePanel.open({ windowId: currentWindowId });</button>
@@ -16,8 +23,8 @@
     <button id="ref-sidepanel-toggle">Toggle sidepanel: sidePanel.toggle({ windowId: currentWindowId });</button>
     sidePanel.getLayout() result:
     <output id="ref-layout"></output>
-    <script src="/options.js"></script>
   </fieldset>
+  <script src="main.js"></script>
 </body>
 
 </html>

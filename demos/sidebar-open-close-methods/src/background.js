@@ -1,12 +1,12 @@
 'use strict';
 
 chrome.tabs.create({
-  url: chrome.runtime.getURL('options.html'),
+  url: chrome.runtime.getURL('main.html'),
 });
 
 chrome.sidePanel.setOptions({
   enabled: true,
-  path: '/options.html',
+  path: 'main.html',
 });
 
 chrome.runtime.onInstalled.addListener(() => {});
