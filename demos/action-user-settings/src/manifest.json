@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "action-user-settings",
+  "description": "action-user-settings",
+  "homepage_url": "https://jeurissen.co/webext-demos/action-user-settings",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar"
+  },
+  "options_page": "main.html",
+  "options_ui": {
+    "page": "main.html",
+    "open_in_tab": true
+  }
+}
