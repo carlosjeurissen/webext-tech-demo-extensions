@@ -46,7 +46,7 @@ document.getElementById('ref-sidepanel-toggle').addEventListener('click', () => 
   });
 });
 
-let potentialPromise = chrome.sidePanel.getLayout((panelLayout) => {
+const potentialPromise = chrome.sidePanel.getLayout((panelLayout) => {
   document.getElementById('ref-layout').textContent = JSON.stringify(panelLayout, null, 2);
 });
 
