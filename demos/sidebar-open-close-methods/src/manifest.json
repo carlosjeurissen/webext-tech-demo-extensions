@@ -24,5 +24,8 @@
   "permissions": ["sidePanel"],
   "side_panel": {
     "default_panel": "main.html"
+  },
+  "sidebar_action": {
+    "default_panel": "main.html"
   }
 }
