@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "permissions-optional-unlimited-storage",
+  "description": "permissions-optional-unlimited-storage",
+  "homepage_url": "https://jeurissen.co/webext-demos/permissions-optional-unlimited-storage",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "optional_permissions": [
+    "unlimitedStorage"
+  ]
+}
