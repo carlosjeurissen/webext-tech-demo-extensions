@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "tabs-create-dynamic-url",
+  "description": "tabs-create-dynamic-url",
+  "homepage_url": "https://jeurissen.co/webext-demos/tabs-create-dynamic-url",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "main.html"
+      ],
+      "matches": [
+        "https://wwww.example.com/*"
+      ],
+      "use_dynamic_url": true
+    }
+  ]
+}

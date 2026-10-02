@@ -6,5 +6,5 @@ body {
 
 div {
   min-height: 2000px;
-  background: linear-gradient(rgb(255 255 255), rgb(0 0 0));
+  background: linear-gradient(20deg, lime, blue, red, cyan, magenta, yellow);
 }
