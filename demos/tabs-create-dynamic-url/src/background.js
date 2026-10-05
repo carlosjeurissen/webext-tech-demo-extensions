@@ -1,9 +1,18 @@
 'use strict';
 
 function openDemo () {
+  const dynamicUrl = chrome.runtime.getURL('main.html');
+  const fixedUrl = chrome.runtime.getURL('background.js').replace('background.js', 'main.html');
+
   chrome.tabs.create({
-    url: chrome.runtime.getURL('main.html'),
+    url: fixedUrl,
   });
+
+  if (dynamicUrl !== fixedUrl) {
+    chrome.tabs.create({
+      url: dynamicUrl,
+    });
+  }
 }
 
 openDemo();

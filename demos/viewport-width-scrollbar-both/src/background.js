@@ -1,10 +1,12 @@
 'use strict';
 
-function openPopup () {
-  chrome.action.openPopup();
+function openDemo () {
+  chrome.runtime.openOptionsPage(() => {
+    chrome.action.openPopup();
+  });
 }
 
 chrome.runtime.onInstalled.addListener(() => {});
 chrome.runtime.onStartup.addListener(() => {});
 
-openPopup();
+openDemo();
