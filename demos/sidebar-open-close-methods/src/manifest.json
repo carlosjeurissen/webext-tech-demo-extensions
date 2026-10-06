@@ -23,7 +23,7 @@
   },
   "permissions": ["sidePanel"],
   "side_panel": {
-    "default_panel": "main.html"
+    "default_path": "main.html"
   },
   "sidebar_action": {
     "default_panel": "main.html"
