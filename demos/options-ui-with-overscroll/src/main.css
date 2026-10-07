@@ -1,0 +1,9 @@
+html,
+body {
+  margin: 0;
+}
+
+div {
+  min-height: 2000px;
+  background: linear-gradient(20deg, lime, blue, red, cyan, magenta, yellow);
+}

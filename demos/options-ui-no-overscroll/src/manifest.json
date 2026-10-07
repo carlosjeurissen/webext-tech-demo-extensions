@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "options-ui-no-overscroll",
+  "description": "options-ui-no-overscroll",
+  "homepage_url": "https://jeurissen.co/webext-demos/options-ui-no-overscroll",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar"
+  },
+  "options_page": "main.html",
+  "options_ui": {
+    "page": "main.html",
+    "open_in_new": false
+  }
+}

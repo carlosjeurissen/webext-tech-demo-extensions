@@ -1,0 +1,10 @@
+html,
+body {
+  overscroll-behavior: none;
+  margin: 0;
+}
+
+div {
+  min-height: 2000.5px;
+  background: linear-gradient(20deg, lime, blue, red, cyan, magenta, yellow);
+}
