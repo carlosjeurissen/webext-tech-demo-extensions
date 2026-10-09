@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "window-create-url-tab-id",
-  "description": "window-create-url-tab-id",
-  "homepage_url": "https://jeurissen.co/webext-demos/window-create-url-tab-id",
+  "name": "action-icon-set-invalid-path",
+  "description": "action-icon-set-invalid-path",
+  "homepage_url": "https://jeurissen.co/webext-demos/action-icon-set-invalid-path",
   "author": "Carlos Jeurissen",
   "version": "0.0.1",
   "icons": {
@@ -14,6 +14,9 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_area": "navbar"
+    "default_area": "navbar",
+    "default_icon": {
+      "16": "icon.png"
+    }
   }
 }
