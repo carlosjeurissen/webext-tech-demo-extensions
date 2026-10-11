@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "icon-variants-action-png",
+  "description": "icon-variants-action-png",
+  "homepage_url": "https://jeurissen.co/webext-demos/icon-variants-action-png",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "contextMenus",
+    "notifications",
+    "sidePanel"
+  ],
+  "icon_variants": [{
+    "16": "icons/yellow-stripe-dark.png",
+    "48": "icons/yellow-stripe-dark-48.png",
+    "color_scheme": ["dark"]
+  }, {
+    "16": "icons/yellow-stripe-light.png",
+    "48": "icons/yellow-stripe-light-48.png"
+  }],
+  "action": {
+    "default_area": "navbar",
+    "theme_icons": [{
+      "size": 16,
+      "dark": "icons/red.png",
+      "light": "icons/purple.png"
+    }],
+    "icon_variants": [{
+      "16": "icons/yellow-checker-dark.png",
+      "48": "icons/yellow-checker-dark-48.png",
+      "color_scheme": ["dark"]
+    }, {
+      "16": "icons/yellow-checker-light.png",
+      "48": "icons/yellow-checker-light-48.png"
+    }]
+  },
+  "side_panel": {
+    "default_path": "sidebar.html"
+  }
+}
