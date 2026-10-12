@@ -4,7 +4,7 @@
   "description": "icon-variants-action-png",
   "homepage_url": "https://jeurissen.co/webext-demos/icon-variants-action-png",
   "author": "Carlos Jeurissen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "background": {
     "scripts": ["background.js"],
     "service_worker": "background.js"
@@ -17,7 +17,7 @@
   "icon_variants": [{
     "16": "icons/yellow-stripe-dark.png",
     "48": "icons/yellow-stripe-dark-48.png",
-    "color_scheme": ["dark"]
+    "color_schemes": ["dark"]
   }, {
     "16": "icons/yellow-stripe-light.png",
     "48": "icons/yellow-stripe-light-48.png"
@@ -32,7 +32,7 @@
     "icon_variants": [{
       "16": "icons/yellow-checker-dark.png",
       "48": "icons/yellow-checker-dark-48.png",
-      "color_scheme": ["dark"]
+      "color_schemes": ["dark"]
     }, {
       "16": "icons/yellow-checker-light.png",
       "48": "icons/yellow-checker-light-48.png"

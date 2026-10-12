@@ -4,7 +4,7 @@
   "description": "icon-variants-browser-action",
   "homepage_url": "https://jeurissen.co/webext-demos/icon-variants-browser-action",
   "author": "Carlos Jeurissen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "background": {
     "scripts": ["background.js"],
     "service_worker": "background.js"
@@ -19,13 +19,13 @@
   },
   "icon_variants": [{
     "16": "/icons/green-stripe-dark.svg",
-    "color_scheme": ["dark"]
+    "color_schemes": ["dark"]
   }, {
     "16": "/icons/green-stripe-light.svg"
   }, {
     "16": "/icons/yellow-stripe-dark.png",
     "48": "/icons/yellow-stripe-dark-48.png",
-    "color_scheme": ["dark"]
+    "color_schemes": ["dark"]
   }, {
     "16": "/icons/yellow-stripe-light.png",
     "48": "/icons/yellow-stripe-light-48.png"
@@ -47,13 +47,13 @@
     }],
     "icon_variants": [{
       "16": "/icons/green-checker-dark.svg",
-      "color_scheme": ["dark"]
+      "color_schemes": ["dark"]
     }, {
       "16": "/icons/green-checker-light.svg"
     }, {
       "16": "/icons/yellow-checker-dark.png",
       "48": "/icons/yellow-checker-dark-48.png",
-      "color_scheme": ["dark"]
+      "color_schemes": ["dark"]
     }, {
       "16": "/icons/yellow-checker-light.png",
       "48": "/icons/yellow-checker-light-48.png"
