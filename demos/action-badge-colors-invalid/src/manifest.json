@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "action-badge-colors-invalid",
+  "description": "action-badge-colors-invalid",
+  "homepage_url": "https://jeurissen.co/webext-demos/action-badge-colors-invalid",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  }
+}
