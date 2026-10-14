@@ -1,0 +1,15 @@
+body::before {
+  content: "content-script.css injected";
+  position: fixed;
+  top: 0;
+  right: 50%;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  display: block;
+  background: lime;
+}
+
+body > *:not(div) {
+  display: none;
+}
