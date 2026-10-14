@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "action-icon-set-relative-path",
+  "description": "action-icon-set-relative-path",
+  "homepage_url": "https://jeurissen.co/webext-demos/action-icon-set-relative-path",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["scripts/background.js"],
+    "service_worker": "scripts/background.js"
+  },
+  "action": {
+    "default_area": "navbar",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  }
+}
