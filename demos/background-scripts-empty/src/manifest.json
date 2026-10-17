@@ -1,17 +1,19 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "background-scripts-empty",
   "description": "background-scripts-empty",
   "homepage_url": "https://jeurissen.co/webext-demos/background-scripts-empty",
   "author": "Carlos Jeurissen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icons": {
     "16": "icon.png",
     "48": "icon.png"
   },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_area": "navbar"
+  },
   "background": {
-    "scripts": [],
-    "service_worker": "service-worker.js",
-    "preferred_environment": ["document", "service_worker"]
+    "scripts": []
   }
 }
