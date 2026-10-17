@@ -6,7 +6,7 @@ specifically in `incognito: spanning`
 Chrome, Orion and Safari always returns false for extension pages
 While Firefox returns true if the specific extension context is in a private window
 
-W3C WECG issue:
+W3C issue:
 https://github.com/w3c/webextensions/issues/1026
 
 ### Docs

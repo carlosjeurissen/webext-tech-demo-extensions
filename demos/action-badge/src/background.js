@@ -17,16 +17,16 @@ try {
       console.log('action.setBadgeBackgroundColor async runtime.lastError', lastError);
     }
   });
-} catch(e) {
+} catch (e) {
   console.log('action.setBadgeBackgroundColor sync error', e);
 }
 
 try {
   chrome.action.setBadgeTextColor({
     color: 'green',
-  }).catch(function (e) {
+  }).catch((e) => {
     console.log('action.setBadgeTextColor async runtime.lastError', e);
   });
-} catch(e) {
+} catch (e) {
   console.log('action.setBadgeTextColor sync error', e);
 }

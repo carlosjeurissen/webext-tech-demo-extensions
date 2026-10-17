@@ -10,5 +10,5 @@ Opens https://cookicons.co which has a font-src restriction
 Chrome loads the font
 Firefox, Safari and Orion do not load the font
 
-W3C WECG issue:
+W3C issue:
 https://github.com/w3c/webextensions/issues/337#issuecomment-4462194115

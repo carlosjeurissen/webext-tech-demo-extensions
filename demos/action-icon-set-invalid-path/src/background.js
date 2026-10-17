@@ -6,7 +6,7 @@ chrome.action.onClicked.addListener(() => {});
 
 chrome.action.setIcon({
   path: 'override.png',
-}, function () {
+}, () => {
   try {
     chrome.action.setIcon({
       path: 'invalid.png',
@@ -16,7 +16,7 @@ chrome.action.setIcon({
         console.log('action.setIcon async runtime.lastError', lastError);
       }
     });
-  } catch(e) {
+  } catch (e) {
     console.log('action.setIcon sync error', e);
   }
 });

@@ -9,5 +9,5 @@ Order of injection is persistent and follows declaration order
 Safari & Orion:
 Order is only persistent following declaration order among same worlds
 
-W3C WECG issue:
+W3C issue:
 https://github.com/w3c/webextensions/issues/872#issuecomment-4296453232

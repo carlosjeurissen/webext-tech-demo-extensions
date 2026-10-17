@@ -9,7 +9,7 @@ Demo with incognito: split
 https://jeurissen.co/webext-demos/private-context-detection-split
 
 ### Issues
-W3C WECG issue:
+W3C issue:
 https://github.com/w3c/webextensions/issues/1026
 
 WebKit bug report:

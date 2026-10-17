@@ -4,7 +4,7 @@ This demo showcases the extension.inIncognitoContext reported by the browser in 
 Currently only Chromium browsers have incognito: split implemented.
 
 ### Issues
-W3C WECG issue:
+W3C issue:
 https://github.com/w3c/webextensions/issues/1026
 
 ### Docs

@@ -1,7 +1,7 @@
 ## Background
 This demo showcases a cartesian product of the different menu types of parents and children
 
-W3C WECG issue:
+W3C issue:
 https://github.com/w3c/webextensions/issues/774
 
 ## Issues

@@ -8,5 +8,5 @@ Safari does not support document PiP as of may 2026.
 
 ### Links
 
-W3C WECG issue:
+W3C issue:
 https://github.com/w3c/webextensions/issues/848

@@ -10,7 +10,7 @@ chrome.action.setBadgeText({
 
 chrome.action.setBadgeBackgroundColor({
   color: 'lime',
-}, function () {
+}, () => {
   try {
     chrome.action.setBadgeBackgroundColor({
       color: 'INVALID',
@@ -20,21 +20,21 @@ chrome.action.setBadgeBackgroundColor({
         console.log('action.setBadgeBackgroundColor async runtime.lastError', lastError);
       }
     });
-  } catch(e) {
+  } catch (e) {
     console.log('action.setBadgeBackgroundColor sync error', e);
   }
 });
 
 chrome.action.setBadgeTextColor({
   color: 'red',
-}).then(function () {
+}).then(() => {
   try {
     chrome.action.setBadgeTextColor({
       color: 'INVALID',
-    }).catch(function (e) {
+    }).catch((e) => {
       console.log('action.setBadgeTextColor async runtime.lastError', e);
     });
-  } catch(e) {
+  } catch (e) {
     console.log('action.setBadgeTextColor sync error', e);
   }
 });

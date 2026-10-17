@@ -31,10 +31,10 @@ function openTabs () {
 
 function openDemo () {
   chrome.scripting.registerContentScripts([{
-    id: "main",
-    css: ["content-script.css"],
-    js: ["content-script.js"],
-    matches: ["https://www.example.com/webext-demos/scripting-relative-path/*"],
+    id: 'main',
+    css: ['content-script.css'],
+    js: ['content-script.js'],
+    matches: ['https://www.example.com/webext-demos/scripting-relative-path/*'],
   }], () => {
     chrome.permissions.request({
       origins: ['https://www.example.com/*'],

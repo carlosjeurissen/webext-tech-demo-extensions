@@ -9,7 +9,7 @@ While in Chrome only reported on onSendHeaders.
 For Orion, this demo currently fails due to webRequest events not fired as described in:
 https://jeurissen.co/webext-demos/webrequest-for-frames-in-extension-pages
 
-W3C WECG issue:
+W3C issue:
 https://github.com/w3c/webextensions/issues/1004
 
 Firefox bug report:

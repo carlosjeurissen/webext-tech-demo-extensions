@@ -4,7 +4,7 @@ On macOS, a unicolor icon also gets recolored based on the current system color.
 
 By clicking the action icon, the extension switches to a gradient icon which indicates it is not re-colored in the case of gradient icons.
 
-W3C WECG issue:
+W3C issue:
 https://github.com/w3c/webextensions/issues/795#issuecomment-3514855254
 
 And:
