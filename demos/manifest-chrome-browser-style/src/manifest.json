@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "manifest-chrome-browser-style",
+  "description": "manifest-chrome-browser-style",
+  "homepage_url": "https://jeurissen.co/webext-demos/manifest-chrome-browser-style",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "options_page": "main.html",
+  "options_ui": {
+    "page": "main.html",
+    "chrome_style": true,
+    "browser_style": true,
+    "open_in_new": false
+  },
+  "action": {
+    "default_popup": "main.html",
+    "chrome_style": true,
+    "browser_style": true
+  },
+  "sidebar_action": {
+    "default_panel": "main.html",
+    "chrome_style": true,
+    "browser_style": true
+  }
+}

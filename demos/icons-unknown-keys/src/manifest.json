@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "icons-unknown-keys",
+  "description": "icons-unknown-keys",
+  "homepage_url": "https://jeurissen.co/webext-demos/icons-unknown-keys",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "any": "icon.png",
+    "color_schemes": ["light", "dark"]
+  },
+  "action": {
+    "default_area": "navbar",
+    "default_icon": {
+      "16": "icon.png",
+      "any": "icon.png",
+      "color_schemes": ["light", "dark"]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "icon-variants-any-precedence",
+  "description": "icon-variants-any-precedence",
+  "homepage_url": "https://jeurissen.co/webext-demos/icon-variants-any-precedence",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "permissions": [
+    "sidePanel"
+  ],
+  "icons": {
+    "16": "yellow-16.png",
+    "48": "yellow-48.png",
+    "256": "yellow-256.png"
+  },
+  "icon_variants": [{
+    "16": "green-16.png",
+    "48": "green-48.png",
+    "any": "red.png",
+    "256": "green-256.png"
+  }],
+  "action": {
+    "default_area": "navbar",
+    "default_icon": {
+      "16": "yellow-16.png",
+      "48": "yellow-48.png",
+      "256": "yellow-256.png"
+    },
+    "icon_variants": [{
+      "16": "green-16.png",
+      "48": "green-48.png",
+      "any": "red.png",
+      "256": "green-256.png"
+    }]
+  },
+  "sidebar_action": {
+    "default_panel": "main.html"
+  },
+  "side_panel": {
+    "default_path": "main.html"
+  }
+}
