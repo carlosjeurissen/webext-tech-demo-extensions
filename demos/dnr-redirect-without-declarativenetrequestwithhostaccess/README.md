@@ -8,7 +8,7 @@ Safari does not redirect and needs the declarativeNetRequestWithHostAccess permi
 
 ### Links
 WebKit bug report:
-https://bugs.webkit.org/show_bug.cgi?id=313727
+https://webkit.org/b/313727
 
 Apple Radar:
 rdar://problem/175927663

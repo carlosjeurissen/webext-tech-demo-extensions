@@ -12,7 +12,7 @@ while Firefox, Safari and Orion do support per-window properties
 WebKit currently requires to switch tabs before the window changes are applied.
 
 WebKit bug report:
-https://bugs.webkit.org/show_bug.cgi?id=315432
+https://webkit.org/b/315432
 
 Apple Radar:
 rdar://problem/177792323

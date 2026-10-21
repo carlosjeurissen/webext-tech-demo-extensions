@@ -7,7 +7,7 @@ Safari does not focus existing options pages when calling runtime.openOptionsPag
 This is supposed to be one of the benefits of this method.
 
 WebKit bug report:
-https://bugs.webkit.org/show_bug.cgi?id=315024
+https://webkit.org/b/315024
 
 Apple Radar:
 rdar://problem/177344808

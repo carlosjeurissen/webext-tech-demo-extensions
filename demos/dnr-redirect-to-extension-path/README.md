@@ -11,7 +11,7 @@ Issue has been fixed in Safari 26.1.
 
 ### Links
 WebKit bug report:
-https://bugs.webkit.org/show_bug.cgi?id=291263
+https://webkit.org/b/291263
 
 Apple Feedback Assistant report:
 https://feedbackassistant.apple.com/feedback/16607632

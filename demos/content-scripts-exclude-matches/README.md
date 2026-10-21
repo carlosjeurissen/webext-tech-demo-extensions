@@ -6,7 +6,7 @@
 Safari ignores excludeMatches on registerContentScripts
 
 WebKit bug report:
-https://bugs.webkit.org/show_bug.cgi?id=290858
+https://webkit.org/b/290858
 
 Apple Feedback Assistant report:
 https://feedbackassistant.apple.com/feedback/16590857

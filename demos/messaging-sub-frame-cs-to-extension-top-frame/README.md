@@ -9,7 +9,7 @@ Click action icon. This opens the extension page with a third party iframe which
 
 ### Links
 WebKit bug report:
-https://bugs.webkit.org/show_bug.cgi?id=246620
+https://webkit.org/b/246620
 
 Apple Feedback Assistant report:
 https://feedbackassistant.apple.com/feedback/9637664

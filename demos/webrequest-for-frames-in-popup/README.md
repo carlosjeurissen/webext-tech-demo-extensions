@@ -19,7 +19,7 @@ https://forum.vivaldi.net/topic/42870/vivaldi-extension-browser-detect/14
 Just like Vivaldi, the listener is never fired inside action popups.
 
 WebKit bug report:
-https://bugs.webkit.org/show_bug.cgi?id=304827
+https://webkit.org/b/304827
 
 Apple Radar:
 rdar://problem/167403221

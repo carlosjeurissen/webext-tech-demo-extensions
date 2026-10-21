@@ -6,7 +6,7 @@ When calling chrome.scripting.registerContentScripts,
 - Safari injects content scripts into existing pages right when calling the method
 
 WebKit bug report:
-https://bugs.webkit.org/show_bug.cgi?id=297903
+https://webkit.org/b/297903
 
 Apple Radar:
 rdar://problem/159193217

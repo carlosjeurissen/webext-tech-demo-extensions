@@ -13,7 +13,7 @@ W3C issue:
 https://github.com/w3c/webextensions/issues/1026
 
 WebKit bug report:
-https://bugs.webkit.org/show_bug.cgi?id=315916
+https://webkit.org/b/315916
 
 Apple Radar:
 rdar://problem/178327590

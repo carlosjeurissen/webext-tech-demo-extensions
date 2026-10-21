@@ -14,7 +14,7 @@ Because there is no tab, Safari fails sending the message with the error:
 `Tab not found`
 
 WebKit bug report:
-https://bugs.webkit.org/show_bug.cgi?id=246620
+https://webkit.org/b/246620
 
 Apple Feedback Assistant report:
 https://feedbackassistant.apple.com/feedback/9637664
@@ -41,7 +41,7 @@ Safari does not define lastError, yet logs this to the console:
 Error: Unchecked `runtime.lastError`: Invalid call to `runtime.sendMessage()`. Tab not found.
 
 WebKit bug report:
-https://bugs.webkit.org/show_bug.cgi?id=314550
+https://webkit.org/b/314550
 
 Radar:
 rdar://problem/176784505

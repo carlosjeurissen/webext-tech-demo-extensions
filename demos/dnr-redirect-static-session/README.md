@@ -12,7 +12,7 @@ Tested on macOS 26.4.1 with Safari Version 26.4 (21624.1.16.11.4) and STP Releas
 
 ### Links
 WebKit bug report:
-https://bugs.webkit.org/show_bug.cgi?id=313963
+https://webkit.org/b/313963
 
 Apple feedback assistant:
 https://feedbackassistant.apple.com/feedback/16607998

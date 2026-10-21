@@ -18,7 +18,7 @@ The above syntax is supposed to use a generated document based on scripts if ser
 
 ### Links
 WebKit bug report:
-https://bugs.webkit.org/show_bug.cgi?id=314194
+https://webkit.org/b/314194
 
 Apple Radar:
 rdar://problem/176357962

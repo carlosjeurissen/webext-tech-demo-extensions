@@ -12,7 +12,7 @@ Orion Version 1.0.6 (145), WebKit 624.1.7
 
 ### Links
 WebKit bug report:
-https://bugs.webkit.org/show_bug.cgi?id=313971
+https://webkit.org/b/313971
 
 Apple Radar:
 rdar://problem/176177851

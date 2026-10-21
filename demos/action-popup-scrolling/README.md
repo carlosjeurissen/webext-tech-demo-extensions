@@ -11,4 +11,4 @@ Sometimes the popup opens in a weird state during which:
 If this state can't be reproduced, try reloading the extension and try opening the popup again.
 
 See:
-https://bugs.webkit.org/show_bug.cgi?id=320810
+https://webkit.org/b/320810

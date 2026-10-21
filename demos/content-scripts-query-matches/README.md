@@ -21,7 +21,7 @@ in WebKit, only the second URL goes green. Meaning
 https://example.com/?query=1 is not matched against https://example.com/*query*
 
 WebKit bug report:
-https://bugs.webkit.org/show_bug.cgi?id=273069
+https://webkit.org/b/273069
 
 Apple Radar:
 rdar://problem/128621567
