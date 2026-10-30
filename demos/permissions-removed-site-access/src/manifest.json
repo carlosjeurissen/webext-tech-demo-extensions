@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "permissions-removed-site-access",
+  "description": "permissions-removed-site-access",
+  "homepage_url": "https://jeurissen.co/webext-demos/permissions-removed-site-access",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "host_permissions": [
+    "https://www.example.com/*"
+  ]
+}
