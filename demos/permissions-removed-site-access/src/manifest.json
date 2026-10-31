@@ -10,6 +10,7 @@
     "48": "icon.png"
   },
   "host_permissions": [
-    "https://www.example.com/*"
+    "https://www.example.com/*",
+    "https://www.example.org/*"
   ]
 }
