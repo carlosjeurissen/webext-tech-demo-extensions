@@ -10,7 +10,11 @@
     "48": "icon.png"
   },
   "sidebar_action": {
-    "default_panel": "/sidebar.html",
+    "default_panel": "sidebar.html",
     "default_area": "navbar"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
   }
 }

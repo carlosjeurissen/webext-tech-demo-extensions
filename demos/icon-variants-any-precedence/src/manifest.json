@@ -34,7 +34,8 @@
     }]
   },
   "sidebar_action": {
-    "default_panel": "main.html"
+    "default_panel": "main.html",
+
   },
   "side_panel": {
     "default_path": "main.html"

@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "storage-set-nested-value",
+  "description": "storage-set-nested-value",
+  "homepage_url": "https://jeurissen.co/webext-demos/storage-set-nested-value",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar"
+  },
+  "permissions": ["storage"]
+}
