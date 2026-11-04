@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "sidebar-without-icon",
+  "description": "sidebar-without-icon",
+  "homepage_url": "https://jeurissen.co/webext-demos/sidebar-without-icon",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "sidebar_action": {
+    "default_panel": "main.html"
+  }
+}
