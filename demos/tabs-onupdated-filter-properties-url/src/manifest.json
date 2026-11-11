@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "tabs-onupdated-filter-properties-url",
+  "description": "tabs-onupdated-filter-properties-url",
+  "homepage_url": "https://jeurissen.co/webext-demos/tabs-onupdated-filter-properties-url",
+  "author": "Carlos Jeurissen",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_area": "navbar"
+  },
+  "permissions": [
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.example.com/*"
+  ]
+}
